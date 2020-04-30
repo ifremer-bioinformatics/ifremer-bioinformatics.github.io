@@ -1,8 +1,10 @@
 # SeBiMER 
 
+Find here some of our projects deployed for a live use.
+
 ## ToolDirectory
 
 [ToolDirectory](https://github.com/ifremer-bioinformatics/ToolDirectory) is a dynamic software catalogue viewer.
 
-View [ToolDirectory](./ToolDirectorySample) at work!
+View ToolDirectory [at work](./ToolDirectorySample)!
 
