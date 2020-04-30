@@ -1,3 +1,5 @@
-theme: jekyll-theme-tactile
 title: SeBiMER
 description: IFREMER Bioinformatics Core Facility
+show_downloads: false
+google_analytics: false
+theme: jekyll-theme-tactile
