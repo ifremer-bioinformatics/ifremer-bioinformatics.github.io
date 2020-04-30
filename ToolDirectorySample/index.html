@@ -1,29 +1,32 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Bioinformatics Software List</title>
-    
+    <title>Bioinformatics software list available on DATARMOR</title>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="./js/d3.4.2.6.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="./keshif.js" charset="utf-8"></script>
     <script type="text/javascript" src="./helpin/helpin_material.js" charset="utf-8"></script>
     <script type="text/javascript" src="./helpin/helpin.js" charset="utf-8"></script>
-    
+
     <script type="text/javascript" src="./js/papaparse.min.js" charset="utf-8"></script>
-    
+
     <link rel="stylesheet" href="./keshif.css"/ type="text/css">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./helpin/helpin.css" type="text/css">
-    
+
     <link rel="stylesheet" href="./software_browser.css" type="text/css">
 
     <script type="text/javascript">
-		var socialShare = false, demoHeader = false;
-		
+
+//
+var socialShare = false, demoHeader = false;
+//
+
 		function formatToolName(toolName){
 		 var idx=toolName.lastIndexOf("-");
 		 var str="<span class='toolName'>";
@@ -68,7 +71,7 @@
               // solution 3: using a relative path (to this script), e.g.:
               dirPath: "./",
               fileType: 'csv',
-              // note that using 'dirPath' and 'fileType' are only relevant 
+              // note that using 'dirPath' and 'fileType' are only relevant
               //   for solutions 2 and 3; see Keshif doc for more details
               //   (https://github.com/adilyalcin/Keshif/wiki/Docs:-Loading-Data).
 
@@ -77,7 +80,7 @@
 			},
 			summaries: [
 			  { name: "Topic"},
-			  { name: "EDAM" },
+			  { name: "Operation" },
 			  { name: "Environment"},
 			  { name: "Access"},
 			],
@@ -87,7 +90,7 @@
 			  textSearch: "Name",
 			  detailsToggle: "one",
 			  recordView: function() {
-				var appliPathPrefix = "DATARMOR : ";
+				var appliPathPrefix = "DATARMOR:";
 				var str="";
 				str+="<div class=''>";
 				str+=formatToolName(this.Name);
@@ -99,7 +102,7 @@
 				str+="<div class='topicsbold'>";
 				str+=this.Description;
 				str+="</div>";
-				str+=formatSimpleTopics("Category", this.EDAM);
+				str+=formatSimpleTopics("Category", this.Operation);
 				str+=formatSimpleTopics("Topic", this.Topic);
 				str+=formatSimpleTopics("Environment", this.Environment);
 				str+="<div>";
@@ -110,15 +113,15 @@
 				  }
 				  else if(this.Access=="Galaxy only"){
 					str+="<span class='topics'><a class='pubLink fa fa-external-link' target='_blank' href='";
-					str+=this.Doc;
-					str+="'> Galaxy Platform</a></span>";
+					str+="https://usegalaxy.fr/";
+					str+="'> Galaxy France</a></span>";
 				  }
 				  else {
 					str+=formatCmdLine(appliPathPrefix+this.Path, this.Name);
 					str+="<span class='topics'>  and  ";
 					str+="<a class='pubLink fa fa-external-link' target='_blank' href='";
-					str+="https://usegalaxy.org";
-					str+="'> Galaxy Platform</a></span>";
+					str+="https://usegalaxy.fr/";
+					str+="'> Galaxy France</a></span>";
 				  }
 				}
 				str+="</div>";
@@ -131,15 +134,12 @@
     </script>
 </head>
 <body>
-  <div>
-   <h3>What is this?</h3>
-   <p>This page presents ToolDirectory <a href="https://github.com/ifremer-bioinformatics/ToolDirectory/tree/master/test" target="_blank">test file</a> at work in a web browser.</p></div>
   <div class="contents">
     <div id="Software_Browser"></div>
     <div id="Infobox"> Data compiled from DATARMOR:/path/to/ |
     Topic and Operation rely on <a href="https://ifb-elixirfr.github.io/edam-browser" target="_blank">EDAM ontology</a> |
     <span class="fa fa-github"></span> Made with
-    <a href="https://github.com/ifremer-bioinformatics/ToolDirectory" target="_blank">ToolDirectory</a></div>
+    <a href="https://github.com/ifremer-bioinformatics/ToolDirectory" target="_blank">ToolDirectory</a> </div>
   </div>
 </body>
 </html>
