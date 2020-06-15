@@ -1,6 +1,6 @@
-# SeBiMER in a few words
+# SeBiMER 
 
-*SeBiMER* is the Bioinformatics Core Facility of [IFREMER](https://wwz.ifremer.fr/en/), French National Institute for Ocean Science. 
+*SeBiMER* is the Bioinformatics Core Facility of [IFREMER](https://wwz.ifremer.fr/en/), the French National Institute for Ocean Science. 
 
 SeBiMER is in charge of providing a large community of marine biologists with all the requirements (knowledge, softwares and data) to handle small and large scale bioinformatics projects, mostly in the fields of metabarcoding (eDNA), (meta-)transcriptomics and genomes assembly & annotaton.
 
@@ -9,10 +9,10 @@ SeBiMER manages two Galaxy portals and more 380 softwares, all of them being dep
 # SeBiMER missions
 
 SeBiMER activity targets four main poles : 
-* IT managment ( e.g. software installation and configuration on DATARMOR)
-* Bioanalysis (e.g. extensive data analysis in close partnership with research teams)
-* Software Development (e.g. design of new data analysis workflows)
-* Bioinformatics R&D
+- IT managment ( e.g. software installation and configuration on DATARMOR)
+- Bioanalysis (e.g. extensive data analysis in close partnership with research teams)
+- Software Development (e.g. design of new data analysis workflows)
+- Bioinformatics R&D
 
 # SeBiMER softwares
 
