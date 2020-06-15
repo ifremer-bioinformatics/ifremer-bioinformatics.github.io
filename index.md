@@ -1,3 +1,6 @@
+---
+image: /assets/images/logo.png
+---
 # SeBiMER 
 
 *SeBiMER* is the Bioinformatics Core Facility of [IFREMER](https://wwz.ifremer.fr/en/), the French National Institute for Ocean Science. 
