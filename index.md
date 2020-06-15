@@ -4,14 +4,14 @@
 
 SeBiMER is in charge of providing a large community of marine biologists with all the requirements (knowledge, softwares and data) to handle small and large scale bioinformatics projects, mostly in the fields of metabarcoding (eDNA), (meta-)transcriptomics and genomes assembly & annotaton.
 
-SeBiMER manages two Galaxy portals and more 380 softwares, all of them being deployed and configured on DATARMOR, Ifremer's supercomputer. The Core Facility is also in charge of managing sequencing data on behalf of biologists: data is organized using EDAM ontology, stored on high-performance and secured disk storage and made accessible to 11,000 cores of DATARMOR.
+SeBiMER manages two Galaxy portals and more 380 softwares, all of them being deployed and configured on [DATARMOR](https://www.top500.org/site/50682), Ifremer's supercomputer. The Core Facility is also in charge of managing sequencing data on behalf of biologists: data is organized using EDAM ontology, stored on high-performance and secured disk storage and made accessible to 11,000 cores of DATARMOR.
 
 # SeBiMER missions
 
-SeBiMER activity targets four main poles : 
-- IT managment ( e.g. software installation and configuration on DATARMOR)
-- Bioanalysis (e.g. extensive data analysis in close partnership with research teams)
-- Software Development (e.g. design of new data analysis workflows)
+SeBiMER activity targets 4 main poles : 
+- IT managment (e.g. sequencing data and software installation & configuration on DATARMOR)
+- Bioanalysis (e.g. extensive data analysis in close relation with research teams)
+- Software Development (e.g. design of new tools and data analysis workflows; see below)
 - Bioinformatics R&D
 
 # SeBiMER softwares
