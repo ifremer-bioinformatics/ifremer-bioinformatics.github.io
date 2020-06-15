@@ -6,7 +6,7 @@ SeBiMER is in charge of providing a large community of marine biologists with al
 
 SeBiMER manages two Galaxy portals and more than 380 softwares, all of them being deployed and configured on [DATARMOR](https://www.top500.org/site/50682), Ifremer's supercomputer. The Core Facility is also in charge of managing sequencing data on behalf of biologists: data is organized using EDAM ontology, stored on high-performance and secured disk storage and made accessible to 11,000 cores of DATARMOR.
 
-SeBiMER team is made of 5 permanent engineers in bioinformatics and computer science.
+SeBiMER team is made of 5 permanent engineers and PhDs with extensive skills in biology, bioinformatics, computer science, software development, data analysis.
 
 # SeBiMER missions
 
