@@ -24,13 +24,11 @@ Find here some of our free and open source projects.
 
 [SAMBA](https://github.com/ifremer-bioinformatics/samba) is an NF-CORE based metabarcoding data analysis workflow.
 
-## BeeDeeM
-
-[BeeDeeM](https://github.com/ifremer-bioinformatics/BeeDeeM) is bioinformatics databank manager.
-
 ## ToolDirectory
 
-[ToolDirectory](https://github.com/ifremer-bioinformatics/ToolDirectory) is a dynamic software catalogue viewer.
+[ToolDirectory](https://github.com/ifremer-bioinformatics/ToolDirectory) is a dynamic software catalogue viewer. View ToolDirectory [at work](./ToolDirectorySample)!
 
-View ToolDirectory [at work](./ToolDirectorySample)!
+## BeeDeeM
+
+[BeeDeeM](https://github.com/ifremer-bioinformatics/BeeDeeM) is a bioinformatics databank manager. 
 
