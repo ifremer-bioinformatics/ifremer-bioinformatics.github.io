@@ -1,0 +1,21 @@
+###############################################################
+#Perform Adonis test on multiple variables: material + time + replicat + extraction_method using the wunifrac distance matrix
+Call:
+adonis(formula = as.formula(f), data = metadata, permutations = 9999) 
+
+Permutation: free
+Number of permutations: 9999
+
+Terms added sequentially (first to last)
+
+                  Df SumsOfSqs   MeanSqs F.Model      R2 Pr(>F)    
+material           1  0.002762 0.0027623   7.012 0.02132 0.0004 ***
+time               5  0.100727 0.0201455  51.137 0.77752 0.0001 ***
+replicat           1  0.000414 0.0004144   1.052 0.00320 0.3433    
+extraction_method  1  0.001220 0.0012200   3.097 0.00942 0.0282 *  
+Residuals         62  0.024425 0.0003939         0.18854           
+Total             70  0.129549                   1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_demux : summarize</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/child.js"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+        
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Demultiplexed sequence counts summary</h1>
+        <table class="table table-striped table-hover">
+            <tr><td>Minimum:</td><td>428</td></tr>
+            <tr><td>Median:</td><td>80043.0</td></tr>
+            <tr><td>Mean:</td><td>77198.32467532468</td></tr>
+            <tr><td>Maximum:</td><td>104588</td></tr>
+            <tr><td>Total:</td><td>5944271</td></tr>
+        </table>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <a href="demultiplex-summary.pdf">
+            <img src="demultiplex-summary.png">
+            <p>Download as PDF</p>
+        </a>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Per-sample sequence counts</h1>
+        <h4>Total Samples: 77</h4>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Sample name</th>
+      <th>Sequence count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ppa21j3</td>
+      <td>104588</td>
+    </tr>
+    <tr>
+      <td>Ppa8j2</td>
+      <td>101363</td>
+    </tr>
+    <tr>
+      <td>Ppet15j1</td>
+      <td>100709</td>
+    </tr>
+    <tr>
+      <td>Cpa21j1</td>
+      <td>99798</td>
+    </tr>
+    <tr>
+      <td>Ppa21j2</td>
+      <td>98272</td>
+    </tr>
+    <tr>
+      <td>Ppet24h1</td>
+      <td>96526</td>
+    </tr>
+    <tr>
+      <td>Ppa15j1</td>
+      <td>93956</td>
+    </tr>
+    <tr>
+      <td>Ppet24h2</td>
+      <td>93645</td>
+    </tr>
+    <tr>
+      <td>Cpet0h1</td>
+      <td>92324</td>
+    </tr>
+    <tr>
+      <td>Cpa0h1</td>
+      <td>91969</td>
+    </tr>
+    <tr>
+      <td>Cpet21j1</td>
+      <td>91480</td>
+    </tr>
+    <tr>
+      <td>Cpa24h2</td>
+      <td>90504</td>
+    </tr>
+    <tr>
+      <td>Ppa15j3</td>
+      <td>90338</td>
+    </tr>
+    <tr>
+      <td>Cpa15j2</td>
+      <td>90249</td>
+    </tr>
+    <tr>
+      <td>Ppa15j2</td>
+      <td>90161</td>
+    </tr>
+    <tr>
+      <td>Ppet21j3</td>
+      <td>89977</td>
+    </tr>
+    <tr>
+      <td>Ppa18h3</td>
+      <td>89598</td>
+    </tr>
+    <tr>
+      <td>Ppet18h2</td>
+      <td>88920</td>
+    </tr>
+    <tr>
+      <td>Cpa8j2</td>
+      <td>88547</td>
+    </tr>
+    <tr>
+      <td>Ppet24h3</td>
+      <td>88496</td>
+    </tr>
+    <tr>
+      <td>Cpa15j3</td>
+      <td>88152</td>
+    </tr>
+    <tr>
+      <td>Ppa24h1</td>
+      <td>86914</td>
+    </tr>
+    <tr>
+      <td>Cpa15j1</td>
+      <td>85757</td>
+    </tr>
+    <tr>
+      <td>Cpet15j3</td>
+      <td>85378</td>
+    </tr>
+    <tr>
+      <td>Ppet8j3</td>
+      <td>84345</td>
+    </tr>
+    <tr>
+      <td>Cpet21j2</td>
+      <td>84160</td>
+    </tr>
+    <tr>
+      <td>Cpa21j2</td>
+      <td>84009</td>
+    </tr>
+    <tr>
+      <td>Ppet15j2</td>
+      <td>83883</td>
+    </tr>
+    <tr>
+      <td>Cpa5j1</td>
+      <td>83734</td>
+    </tr>
+    <tr>
+      <td>Cpet0h2</td>
+      <td>83277</td>
+    </tr>
+    <tr>
+      <td>Ppa24h3</td>
+      <td>82675</td>
+    </tr>
+    <tr>
+      <td>Ppa5j3</td>
+      <td>82477</td>
+    </tr>
+    <tr>
+      <td>Cpet15j2</td>
+      <td>82441</td>
+    </tr>
+    <tr>
+      <td>Ppet15j3</td>
+      <td>81586</td>
+    </tr>
+    <tr>
+      <td>Ppet18h1</td>
+      <td>81044</td>
+    </tr>
+    <tr>
+      <td>Cpet15j1</td>
+      <td>80944</td>
+    </tr>
+    <tr>
+      <td>Cpa21j3</td>
+      <td>80836</td>
+    </tr>
+    <tr>
+      <td>Cpa18h1</td>
+      <td>80593</td>
+    </tr>
+    <tr>
+      <td>Ppa5j2</td>
+      <td>80043</td>
+    </tr>
+    <tr>
+      <td>Ppet5j2</td>
+      <td>79862</td>
+    </tr>
+    <tr>
+      <td>Ppa8j1</td>
+      <td>79665</td>
+    </tr>
+    <tr>
+      <td>Ppa18h2</td>
+      <td>79463</td>
+    </tr>
+    <tr>
+      <td>Cpa5j3</td>
+      <td>79427</td>
+    </tr>
+    <tr>
+      <td>Ppet5j3</td>
+      <td>78845</td>
+    </tr>
+    <tr>
+      <td>Ppet8j2</td>
+      <td>77397</td>
+    </tr>
+    <tr>
+      <td>Ppet21j1</td>
+      <td>77205</td>
+    </tr>
+    <tr>
+      <td>Cpa24h3</td>
+      <td>76305</td>
+    </tr>
+    <tr>
+      <td>Ppa5j1</td>
+      <td>76200</td>
+    </tr>
+    <tr>
+      <td>Ppet5j1</td>
+      <td>75991</td>
+    </tr>
+    <tr>
+      <td>Ppet21j2</td>
+      <td>75793</td>
+    </tr>
+    <tr>
+      <td>Cpa8j3</td>
+      <td>74202</td>
+    </tr>
+    <tr>
+      <td>Ppet18h3</td>
+      <td>74076</td>
+    </tr>
+    <tr>
+      <td>Cpet8j1</td>
+      <td>74045</td>
+    </tr>
+    <tr>
+      <td>Ppa21j1</td>
+      <td>73759</td>
+    </tr>
+    <tr>
+      <td>Ppa24h2</td>
+      <td>72955</td>
+    </tr>
+    <tr>
+      <td>Ppa18h1</td>
+      <td>72467</td>
+    </tr>
+    <tr>
+      <td>Cpet21j3</td>
+      <td>71381</td>
+    </tr>
+    <tr>
+      <td>Ppet8j1</td>
+      <td>70950</td>
+    </tr>
+    <tr>
+      <td>Cpa5j2</td>
+      <td>68992</td>
+    </tr>
+    <tr>
+      <td>Cpet8j2</td>
+      <td>68218</td>
+    </tr>
+    <tr>
+      <td>Cpet8j3</td>
+      <td>67367</td>
+    </tr>
+    <tr>
+      <td>Cpa8j1</td>
+      <td>66607</td>
+    </tr>
+    <tr>
+      <td>Cpet5j3</td>
+      <td>65490</td>
+    </tr>
+    <tr>
+      <td>Cpet24h2</td>
+      <td>65401</td>
+    </tr>
+    <tr>
+      <td>Cpa18h3</td>
+      <td>64929</td>
+    </tr>
+    <tr>
+      <td>Cpa18h2</td>
+      <td>62817</td>
+    </tr>
+    <tr>
+      <td>Cpet5j1</td>
+      <td>62117</td>
+    </tr>
+    <tr>
+      <td>Cpet24h3</td>
+      <td>61121</td>
+    </tr>
+    <tr>
+      <td>Cpa24h1</td>
+      <td>60599</td>
+    </tr>
+    <tr>
+      <td>Cpet18h2</td>
+      <td>57601</td>
+    </tr>
+    <tr>
+      <td>Cpet24h1</td>
+      <td>57300</td>
+    </tr>
+    <tr>
+      <td>Cpa0h2</td>
+      <td>55731</td>
+    </tr>
+    <tr>
+      <td>Cpet5j2</td>
+      <td>55646</td>
+    </tr>
+    <tr>
+      <td>Cpet18h1</td>
+      <td>55131</td>
+    </tr>
+    <tr>
+      <td>Cpet18h3</td>
+      <td>54484</td>
+    </tr>
+    <tr>
+      <td>Ppa0h1</td>
+      <td>636</td>
+    </tr>
+    <tr>
+      <td>Ppa0h2</td>
+      <td>428</td>
+    </tr>
+  </tbody>
+</table>
+        <a href="per-sample-fastq-counts.csv">Download as CSV</a>
+    </div>
+</div>
+
+    </div>
+    
+    
+  </body>
+</html>

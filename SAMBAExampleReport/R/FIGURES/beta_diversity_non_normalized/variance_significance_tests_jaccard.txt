@@ -1,0 +1,21 @@
+###############################################################
+#Perform Adonis test on multiple variables: material + time + replicat + extraction_method using the jaccard distance matrix
+Call:
+adonis(formula = as.formula(f), data = metadata, permutations = 9999) 
+
+Permutation: free
+Number of permutations: 9999
+
+Terms added sequentially (first to last)
+
+                  Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+material           1    0.2528 0.25280  1.8425 0.01035 0.0658 .  
+time               5   14.8596 2.97191 21.6605 0.60850 0.0001 ***
+replicat           1    0.1188 0.11880  0.8659 0.00487 0.4925    
+extraction_method  1    0.6821 0.68207  4.9712 0.02793 0.0004 ***
+Residuals         62    8.5067 0.13720         0.34835           
+Total             70   24.4199                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+

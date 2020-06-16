@@ -1,0 +1,21 @@
+###############################################################
+#Perform Adonis test on multiple variables: material + time + replicat + extraction_method using the bray distance matrix
+Call:
+adonis(formula = as.formula(f), data = metadata, permutations = 9999) 
+
+Permutation: free
+Number of permutations: 9999
+
+Terms added sequentially (first to last)
+
+                  Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+material           1    0.1646 0.16465   2.982 0.00841 0.0323 *  
+time               5   15.7412 3.14823  57.024 0.80441 0.0001 ***
+replicat           1    0.0614 0.06145   1.113 0.00314 0.3035    
+extraction_method  1    0.1784 0.17840   3.231 0.00912 0.0209 *  
+Residuals         62    3.4229 0.05521         0.17492           
+Total             70   19.5686                 1.00000           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+

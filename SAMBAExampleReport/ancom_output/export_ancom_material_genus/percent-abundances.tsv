@@ -1,0 +1,714 @@
+Percentile	0.0	25.0	50.0	75.0	100.0	0.0	25.0	50.0	75.0	100.0
+Group	PA6	PA6	PA6	PA6	PA6	PET	PET	PET	PET	PET
+D_0__Bacteria;D_1__Acidobacteria;D_2__Acidobacteriia;D_3__Solibacterales;D_4__Solibacteraceae (Subgroup 3);D_5__PAUC26f	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Acidobacteriia;D_3__Solibacterales;D_4__Solibacteraceae (Subgroup 3);__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Holophagae;D_3__Acanthopleuribacterales;D_4__Acanthopleuribacteraceae;D_5__Acanthopleuribacter	1.0	1.0	1.0	1.0	27.0	1.0	1.0	1.0	1.0	22.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 22;Ambiguous_taxa;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 22;D_3__uncultured Acidobacteria bacterium;D_4__uncultured Acidobacteria bacterium;D_5__uncultured Acidobacteria bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 22;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 22;__;__;__	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 26;D_3__uncultured Acidobacteria bacterium;D_4__uncultured Acidobacteria bacterium;D_5__uncultured Acidobacteria bacterium	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 26;D_3__uncultured Acidobacterium sp.;D_4__uncultured Acidobacterium sp.;D_5__uncultured Acidobacterium sp.	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Thermoanaerobaculia;D_3__Thermoanaerobaculales;D_4__Thermoanaerobaculaceae;D_5__Subgroup 10	1.0	1.0	1.0	2.0	26.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__Thermoanaerobaculia;D_3__Thermoanaerobaculales;D_4__Thermoanaerobaculaceae;D_5__Subgroup 23	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__d142;D_3__uncultured Acidobacteria bacterium;D_4__uncultured Acidobacteria bacterium;D_5__uncultured Acidobacteria bacterium	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Acidobacteria;D_2__d142;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Actinomarinales;D_4__Actinomarinaceae;D_5__Candidatus Actinomarina	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Actinomarinales;D_4__uncultured;D_5__uncultured Gram-positive bacterium	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Actinomarinales;D_4__uncultured;__	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Microtrichales;D_4__Ilumatobacteraceae;D_5__Ilumatobacter	1.0	1.0	1.0	8.5	34.0	1.0	1.0	1.0	1.0	27.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Microtrichales;D_4__Ilumatobacteraceae;D_5__uncultured	1.0	1.0	1.0	1.0	16.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Microtrichales;D_4__Microtrichaceae;D_5__Sva0996 marine group	1.0	1.0	5.0	17.0	99.0	1.0	1.0	1.0	14.25	65.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__Microtrichales;D_4__Microtrichaceae;D_5__uncultured	1.0	1.0	1.0	11.0	46.0	1.0	1.0	1.0	2.25	30.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Corynebacteriales;D_4__Corynebacteriaceae;D_5__Corynebacterium 1	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Corynebacteriales;D_4__Corynebacteriaceae;D_5__Lawsonella	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Brevibacteriaceae;D_5__Brevibacterium	1.0	1.0	1.0	1.0	23.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Intrasporangiaceae;__	1.0	1.0	1.0	1.0	17.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Micrococcaceae;D_5__Arthrobacter	1.0	1.0	1.0	1.0	31.0	1.0	1.0	1.0	1.0	40.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Micrococcaceae;D_5__Micrococcus	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	112.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Micrococcaceae;__	1.0	1.0	1.0	1.0	92.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Propionibacteriales;D_4__Nocardioidaceae;D_5__Nocardioides	1.0	1.0	1.0	1.0	33.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Propionibacteriales;D_4__Propionibacteriaceae;D_5__Cutibacterium	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Coriobacteriia;D_3__OPB41;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Rubrobacteria;D_3__Rubrobacterales;D_4__Rubrobacteriaceae;D_5__Rubrobacter	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Solirubrobacterales;D_4__67-14;D_5__metagenome	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Solirubrobacterales;D_4__Solirubrobacteraceae;D_5__Solirubrobacter	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Solirubrobacterales;__;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Actinobacteria;D_2__WCHB1-81;D_3__uncultured actinobacterium;D_4__uncultured actinobacterium;D_5__uncultured actinobacterium	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Actinobacteria;__;__;__;__	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Bacteroidaceae;D_5__Bacteroides	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Bacteroidetes BD2-2;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Bacteroidetes BD2-2;__	1.0	1.0	1.0	10.0	61.0	1.0	1.0	1.0	4.25	67.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Marinifilaceae;D_5__Marinifilum	1.0	1.0	1.0	1.0	39.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Marinifilaceae;D_5__uncultured	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	49.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Marinilabiliaceae;D_5__Carboxylicivirga	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	25.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Marinilabiliaceae;D_5__Labilibacter	1.0	1.0	1.0	1.0	35.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Marinilabiliaceae;D_5__uncultured	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Marinilabiliaceae;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Porphyromonadaceae;D_5__Porphyromonas	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Prevotellaceae;D_5__Alloprevotella	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Prevotellaceae;D_5__Prevotella	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Prevotellaceae;__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Prolixibacteraceae;D_5__Draconibacterium	1.0	1.0	1.0	2.0	21.0	1.0	1.0	1.0	1.0	40.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Prolixibacteraceae;D_5__Roseimarinus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	52.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Prolixibacteraceae;D_5__Sunxiuqinia	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	22.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Rikenellaceae;D_5__Alistipes	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Rikenellaceae;D_5__Rikenellaceae RC9 gut group	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;D_4__Tannerellaceae;D_5__Macellibacteroides	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidales;__;__	1.0	1.0	1.0	1.0	48.0	1.0	1.0	1.0	4.25	61.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidetes VC2.1 Bac22;D_4__uncultured Bacteroidetes bacterium;D_5__uncultured Bacteroidetes bacterium	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidetes VC2.1 Bac22;D_4__uncultured alpha proteobacterium;D_5__uncultured alpha proteobacterium	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidetes VC2.1 Bac22;D_4__uncultured organism;D_5__uncultured organism	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Bacteroidetes VC2.1 Bac22;__;__	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__37-13;D_5__uncultured Bacteroidetes bacterium	1.0	1.0	1.0	5.0	117.0	1.0	1.0	1.0	8.0	82.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__37-13;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Chitinophagaceae;D_5__Sediminibacterium	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Chitinophagaceae;D_5__Taibaiella	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Chitinophagaceae;D_5__uncultured	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__Aureispira	1.0	27.5	95.0	2073.0	6353.0	1.0	33.25	69.0	2058.5	3621.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__Lewinella	4.0	76.5	290.0	1725.0	3909.0	19.0	71.0	353.5	2449.25	4578.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__Phaeodactylibacter	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__Portibacter	1.0	7.5	29.0	74.5	155.0	1.0	8.75	34.5	77.5	377.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__Rubidimonas	1.0	1.0	1.0	9.5	54.0	1.0	1.0	1.0	9.0	45.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__Saprospira	1.0	1.0	1.0	1.0	126.0	1.0	1.0	1.0	1.0	130.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;D_5__uncultured	45.0	185.5	497.0	1306.5	2895.0	14.0	147.75	720.5	1426.5	3119.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__Saprospiraceae;__	1.0	2.5	19.0	42.5	152.0	1.0	1.0	13.0	29.75	244.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__uncultured;D_5__uncultured Bacteroidetes bacterium	1.0	1.0	10.0	27.5	138.0	1.0	1.0	9.0	20.25	90.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__uncultured;D_5__uncultured Bacteroidetes/Chlorobi group bacterium	1.0	1.0	1.0	4.0	35.0	1.0	1.0	1.0	1.0	75.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__uncultured;D_5__uncultured Sphingobacteriales bacterium	1.0	1.0	1.0	6.0	43.0	1.0	1.0	1.0	1.0	25.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__uncultured;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__uncultured;D_5__uncultured organism	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	40.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;D_4__uncultured;__	1.0	1.0	1.0	13.5	43.0	1.0	1.0	3.0	11.5	84.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Chitinophagales;__;__	1.0	1.0	1.0	3.5	88.0	1.0	1.0	1.0	11.25	37.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Amoebophilaceae;D_5__Candidatus Amoebophilus	34.0	183.5	383.0	668.0	1371.0	1.0	51.5	190.5	442.25	1198.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Amoebophilaceae;D_5__uncultured	1.0	1.0	1.0	29.0	69.0	1.0	1.0	11.5	32.0	85.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Bernardetiaceae;D_5__Bernardetia	1.0	1.0	13.0	455.5	1554.0	1.0	6.75	20.0	289.75	1212.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Bernardetiaceae;D_5__Garritya	1.0	1.0	8.0	23.5	172.0	1.0	1.0	8.0	27.5	128.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Algoriphagus	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Ekhidna	1.0	1.0	13.0	38.5	157.0	1.0	1.0	13.0	32.0	212.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Fabibacter	1.0	1.0	12.0	36.5	83.0	1.0	1.0	17.0	32.25	78.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Fulvitalea	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Fulvivirga	1.0	1.0	13.0	33.5	334.0	1.0	1.0	21.0	33.75	345.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Marinoscillum	1.0	1.0	1.0	1.0	22.0	1.0	1.0	1.0	1.0	21.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Persicobacter	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Reichenbachiella	1.0	1.0	1.0	11.0	49.0	1.0	1.0	1.0	7.0	37.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__Tunicatimonas	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;D_5__uncultured	1.0	9.0	32.0	61.5	280.0	1.0	6.75	18.5	53.25	297.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Cyclobacteriaceae;__	1.0	1.0	1.0	4.5	90.0	1.0	1.0	1.0	2.25	60.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Flammeovirgaceae;D_5__Flexithrix	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Flammeovirgaceae;D_5__Rapidithrix	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Flammeovirgaceae;D_5__uncultured	1.0	36.0	99.0	355.5	4866.0	1.0	60.0	157.0	385.0	2291.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Flammeovirgaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Hymenobacteraceae;D_5__Hymenobacter	1.0	1.0	1.0	1.0	42.0	1.0	1.0	1.0	1.0	29.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Microscillaceae;D_5__Microscilla	1.0	1.0	1.0	9.5	78.0	1.0	1.0	1.0	11.75	165.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Spirosomaceae;D_5__Persicitalea	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Spirosomaceae;D_5__Spirosoma	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;D_4__Spirosomaceae;D_5__Taeseokella	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Cytophagales;__;__	1.0	1.0	17.0	50.5	236.0	1.0	3.25	14.5	38.25	157.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Crocinitomicaceae;D_5__Crocinitomix	1.0	21.0	35.0	83.5	390.0	1.0	12.0	31.5	67.0	314.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Crocinitomicaceae;D_5__Fluviicola	1.0	9.5	77.0	148.5	453.0	1.0	10.75	51.0	112.25	582.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Crocinitomicaceae;D_5__Salinirepens	1.0	1.0	1.0	13.5	177.0	1.0	1.0	1.0	11.0	225.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Crocinitomicaceae;D_5__uncultured	1.0	1.0	1.0	20.0	111.0	1.0	1.0	1.0	18.0	94.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Crocinitomicaceae;__	1.0	1.0	1.0	18.0	161.0	1.0	1.0	1.0	10.25	351.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Cryomorphaceae;D_5__Cryomorpha	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Cryomorphaceae;D_5__Luteibaculum	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Cryomorphaceae;D_5__NS10 marine group	1.0	1.0	1.0	1.0	52.0	1.0	1.0	1.0	1.0	45.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Cryomorphaceae;D_5__Owenweeksia	1.0	1.0	1.0	8.0	45.0	1.0	1.0	1.0	9.75	64.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Cryomorphaceae;D_5__uncultured	1.0	26.0	78.0	147.0	528.0	1.0	24.25	51.0	165.0	425.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Cryomorphaceae;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	22.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Actibacter	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	34.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Algitalea	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	44.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Aquibacter	1.0	1.0	1.0	22.0	144.0	1.0	1.0	1.0	25.0	204.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Aquimarina	63.0	176.0	310.0	1864.0	5491.0	68.0	170.5	328.0	1943.0	4370.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Arcticiflavibacter	1.0	1.0	1.0	1.0	62.0	1.0	1.0	1.0	10.5	192.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Arenibacter	1.0	1.0	1.0	1.0	38.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Ascidiimonas	1.0	1.0	1.0	1.0	72.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Aurantivirga	1.0	1.0	8.0	33.5	106.0	1.0	1.0	1.0	13.0	56.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Croceibacter	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Dokdonia	59.0	517.0	744.0	1777.5	11561.0	97.0	437.25	706.5	1588.5	6148.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Eudoraea	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Flavicella	1.0	1.0	1.0	1.0	26.0	1.0	1.0	1.0	1.0	34.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Flavimarina	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Flavirhabdus	1.0	18.0	58.0	204.5	1792.0	1.0	1.0	39.5	126.0	897.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Flavobacterium	1.0	1.0	1.0	1.0	64.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Formosa	1.0	1.0	1.0	1.0	45.0	1.0	1.0	1.0	1.0	18.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Gilvibacter	1.0	1.0	1.0	18.0	214.0	1.0	1.0	1.0	12.0	57.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Gramella	1.0	1.0	1.0	1.0	41.0	1.0	1.0	1.0	1.0	29.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Jejudonia	1.0	1.0	1.0	15.5	86.0	1.0	1.0	1.0	14.0	195.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Kordia	1.0	1.0	19.0	96.0	336.0	1.0	1.0	10.5	38.0	826.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Lutibacter	1.0	1.0	1.0	1.5	43.0	1.0	1.0	1.0	1.25	82.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Lutimonas	1.0	18.5	38.0	76.0	581.0	1.0	16.75	34.0	67.5	393.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Maribacter	1.0	3.0	24.0	61.5	233.0	1.0	10.5	33.0	70.75	131.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Maritimimonas	1.0	1.0	23.0	77.5	395.0	1.0	1.0	31.5	99.0	570.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Marixanthomonas	1.0	1.0	1.0	8.5	47.0	1.0	1.0	1.0	2.0	82.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Mesoflavibacter	1.0	1.0	1.0	7.0	649.0	1.0	1.0	1.0	1.0	25.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Mesonia	1.0	1.0	1.0	1.0	220.0	1.0	1.0	1.0	4.0	91.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__NS4 marine group	1.0	1.0	1.0	1.0	41.0	1.0	1.0	1.0	1.0	49.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__NS5 marine group	1.0	1.0	1.0	4.0	212.0	1.0	1.0	1.0	15.0	296.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Nonlabens	1.0	1.0	10.0	35.5	162.0	1.0	1.0	8.0	23.5	81.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Polaribacter	1.0	1.0	1.0	4.0	69.0	1.0	1.0	1.0	1.0	80.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Polaribacter 4	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Pseudofulvibacter	1.0	1.0	23.0	72.0	509.0	1.0	1.0	1.0	58.75	913.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Psychroflexus	1.0	1.0	1.0	1.0	34.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Psychroserpens	1.0	1.0	14.0	48.0	1213.0	1.0	1.0	4.5	44.25	1758.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Salegentibacter	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Spongiimicrobium	1.0	1.0	1.0	19.5	73.0	1.0	1.0	1.0	20.25	61.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Spongiimonas	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Spongiivirga	1.0	1.0	13.0	174.0	1231.0	1.0	1.0	3.5	70.5	835.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Tenacibaculum	1.0	20.5	385.0	1625.0	7011.0	1.0	13.75	469.0	1643.25	6299.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Ulvibacter	1.0	11.5	37.0	76.5	399.0	1.0	12.0	39.5	92.25	548.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__Winogradskyella	1.0	52.0	224.0	783.0	7191.0	10.0	44.75	155.0	563.5	7497.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;D_5__uncultured	1.0	1.0	11.0	56.5	173.0	1.0	1.0	14.5	49.75	180.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Flavobacteriaceae;__	79.0	364.5	1258.0	4160.5	10121.0	98.0	508.25	994.0	2943.75	9052.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS7 marine group;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	61.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS7 marine group;__	1.0	1.0	1.0	1.0	48.0	1.0	1.0	1.0	2.0	75.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;Ambiguous_taxa	1.0	1.0	1.0	1.0	51.0	1.0	1.0	1.0	1.0	46.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__hydrothermal vent metagenome	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__seawater metagenome	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__uncultured Bacteroidetes bacterium	1.0	1.0	1.0	6.5	137.0	1.0	1.0	1.0	12.75	110.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__uncultured Flavobacteriales bacterium	1.0	1.0	1.0	17.5	172.0	1.0	1.0	17.5	28.0	56.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__uncultured Flavobacteriia bacterium	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	49.0	1.0	1.0	1.0	1.0	18.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;D_5__uncultured deep-sea bacterium	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__NS9 marine group;__	1.0	1.0	1.0	23.0	197.0	1.0	1.0	1.0	14.5	99.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Schleiferiaceae;D_5__Schleiferia	1.0	1.0	1.0	1.0	50.0	1.0	1.0	1.0	1.0	30.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Weeksellaceae;D_5__Bergeyella	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	29.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;D_4__Weeksellaceae;D_5__Cloacibacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Flavobacteriales;__;__	1.0	8.5	24.0	93.0	181.0	1.0	3.75	25.0	59.0	210.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__AKYH767;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__Lentimicrobiaceae;__	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__NS11-12 marine group;Ambiguous_taxa	1.0	1.0	1.0	5.5	40.0	1.0	1.0	1.0	1.75	24.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__NS11-12 marine group;D_5__uncultured Bacteroidetes bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__NS11-12 marine group;D_5__uncultured bacterium	1.0	1.0	1.0	14.5	45.0	1.0	1.0	1.0	8.25	65.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__NS11-12 marine group;__	1.0	1.0	10.0	105.5	784.0	1.0	1.0	26.5	132.0	332.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__env.OPS 17;__	1.0	1.0	1.0	1.0	53.0	1.0	1.0	1.0	1.0	39.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;__;__;__	1.0	1.0	4.0	32.5	191.0	1.0	1.0	9.5	26.25	409.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Ignavibacteria;D_3__Ignavibacteriales;D_4__Melioribacteraceae;D_5__IheB3-7	1.0	1.0	1.0	1.0	32.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Ignavibacteria;D_3__Ignavibacteriales;D_4__PHOS-HE36;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	31.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Ignavibacteria;D_3__Kryptoniales;D_4__MSB-3C8;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Ignavibacteria;D_3__OPB56;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Ignavibacteria;D_3__OPB56;__;__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Balneolales;D_4__Balneolaceae;D_5__B2706-C7	1.0	1.0	1.0	1.0	17.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Balneolales;D_4__Balneolaceae;D_5__Balneola	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Rhodothermales;D_4__Rhodothermaceae;D_5__Rubricoccus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Rhodothermales;D_4__Rhodothermaceae;D_5__Rubrivirga	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	23.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Rhodothermales;D_4__Rhodothermaceae;D_5__uncultured	1.0	1.0	1.0	8.0	52.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Rhodothermales;D_4__Rhodothermaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	22.0
+D_0__Bacteria;D_1__Bacteroidetes;D_2__Rhodothermia;D_3__Rhodothermales;D_4__Rhodothermaceae;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Calditrichaeota;D_2__Calditrichia;D_3__Calditrichales;D_4__Calditrichaceae;D_5__Calorithrix	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Calditrichaeota;D_2__Calditrichia;D_3__Calditrichales;D_4__Calditrichaceae;D_5__JdFR-76	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Calditrichaeota;D_2__Calditrichia;D_3__Calditrichales;D_4__Calditrichaceae;D_5__SM23-31	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Calditrichaeota;D_2__Calditrichia;D_3__Calditrichales;D_4__Calditrichaceae;D_5__uncultured Deferribacteres bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Calditrichaeota;D_2__Calditrichia;D_3__Calditrichales;D_4__Calditrichaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Calditrichaeota;D_2__Calditrichia;D_3__Calditrichales;D_4__Calditrichaceae;__	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Chlamydiae;D_2__Chlamydiae;D_3__Chlamydiales;D_4__Parachlamydiaceae;D_5__Candidatus Protochlamydia	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Chlamydiae;D_2__Chlamydiae;D_3__Chlamydiales;D_4__Parachlamydiaceae;D_5__Neochlamydia	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Chlamydiae;D_2__Chlamydiae;D_3__Chlamydiales;D_4__Simkaniaceae;D_5__Simkania	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Chlamydiae;D_2__Chlamydiae;D_3__Chlamydiales;__;__	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Chloroflexi;D_2__Anaerolineae;D_3__Ardenticatenales;D_4__Ardenticatenaceae;D_5__uncultured	1.0	1.0	9.0	20.0	350.0	1.0	1.0	5.0	27.5	96.0
+D_0__Bacteria;D_1__Chloroflexi;D_2__Anaerolineae;D_3__SBR1031;D_4__uncultured organism;D_5__uncultured organism	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Chloroflexi;D_2__Dehalococcoidia;D_3__MSBL5;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Chloroflexi;D_2__Dehalococcoidia;D_3__MSBL5;__;__	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Chloroflexi;D_2__Dehalococcoidia;D_3__vadinBA26;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Oxyphotobacteria;D_3__Chloroplast;D_4__Cylindrotheca closterium;D_5__Cylindrotheca closterium	1.0	1.0	1.0	1.0	27.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Oxyphotobacteria;D_3__Chloroplast;D_4__Ostreococcus tauri;D_5__Ostreococcus tauri	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Oxyphotobacteria;D_3__Chloroplast;D_4__Phalacroma mitra;D_5__Phalacroma mitra	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Oxyphotobacteria;D_3__Chloroplast;D_4__Ptilocladiopsis horrida;D_5__Ptilocladiopsis horrida	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Oxyphotobacteria;D_3__Chloroplast;D_4__bacterium WHC4-2;D_5__bacterium WHC4-2	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Oxyphotobacteria;D_3__Chloroplast;__;__	1.0	59.5	158.0	826.5	2226.0	1.0	40.5	112.5	584.25	2316.0
+D_0__Bacteria;D_1__Cyanobacteria;D_2__Sericytochromatia;__;__;__	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Deinococcus-Thermus;D_2__Deinococci;D_3__Deinococcales;D_4__Trueperaceae;D_5__Truepera	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__Babeliaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__UBA12409;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__UBA12409;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__UBA12411;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	38.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__Vermiphilaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__Vermiphilaceae;__	1.0	1.0	1.0	1.0	41.0	1.0	1.0	1.0	1.0	21.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	8.0	33.0	1.0	1.0	1.0	5.0	25.0
+D_0__Bacteria;D_1__Dependentiae;D_2__Babeliae;D_3__Babeliales;__;__	1.0	1.0	1.0	2.0	326.0	1.0	1.0	1.0	1.0	29.0
+D_0__Bacteria;D_1__Elusimicrobia;D_2__Elusimicrobia;D_3__Lineage IV;D_4__Elusimicrobia bacterium GWA2_69_24;D_5__Elusimicrobia bacterium GWA2_69_24	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Elusimicrobia;D_2__Elusimicrobia;D_3__MD2894-B20;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Entotheonellaeota;D_2__Entotheonellia;D_3__Entotheonellales;D_4__Entotheonellaceae;D_5__Candidatus Entotheonella	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	21.0
+D_0__Bacteria;D_1__Epsilonbacteraeota;D_2__Campylobacteria;D_3__Campylobacterales;D_4__Arcobacteraceae;D_5__Arcobacter	1.0	1.0	1.0	32.5	367.0	1.0	1.0	1.0	23.5	120.0
+D_0__Bacteria;D_1__Epsilonbacteraeota;D_2__Campylobacteria;D_3__Campylobacterales;D_4__Helicobacteraceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Epsilonbacteraeota;D_2__Campylobacteria;D_3__Campylobacterales;D_4__Sulfurovaceae;D_5__Sulfurovum	1.0	1.0	9.0	16.5	63.0	1.0	1.0	9.5	17.25	73.0
+D_0__Bacteria;D_1__Epsilonbacteraeota;D_2__Campylobacteria;D_3__Campylobacterales;D_4__Thiovulaceae;D_5__Sulfurimonas	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Epsilonbacteraeota;D_2__Campylobacteria;D_3__Campylobacterales;D_4__Thiovulaceae;__	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__FCPU426;D_2__uncultured bacterium;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Fibrobacteres;D_2__Chitinivibrionia;D_3__Chitinivibrionales;D_4__Chitinivibrionaceae;D_5__Chitinivibrio	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Fibrobacteres;D_2__Chitinivibrionia;D_3__Chitinivibrionales;D_4__Chitinivibrionaceae;D_5__possible genus 03	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Fibrobacteres;D_2__Fibrobacteria;D_3__Fibrobacterales;D_4__Fibrobacteraceae;D_5__uncultured	1.0	1.0	1.0	1.0	35.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Fibrobacteres;D_2__Fibrobacteria;D_3__Fibrobacterales;D_4__Fibrobacteraceae;__	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Bacilli;D_3__Bacillales;D_4__Bacillaceae;D_5__Bacillus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	30.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Bacilli;D_3__Bacillales;D_4__Staphylococcaceae;D_5__Staphylococcus	1.0	1.0	1.0	1.0	146.0	1.0	1.0	1.0	1.0	23.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Bacilli;D_3__Lactobacillales;D_4__Lactobacillaceae;D_5__Lactobacillus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Bacilli;D_3__Lactobacillales;D_4__Streptococcaceae;D_5__Streptococcus	1.0	1.0	1.0	1.0	85.0	1.0	1.0	1.0	1.0	23.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Christensenellaceae;D_5__uncultured	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Clostridiaceae 1;D_5__Clostridium sensu stricto 1	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Clostridiaceae 1;D_5__Clostridium sensu stricto 17	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Clostridiaceae 1;D_5__uncultured	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Clostridiaceae 4;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Defluviitaleaceae;D_5__Defluviitaleaceae UCG-011	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Family XII;D_5__Fusibacter	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__Anaerostipes	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__Catonella	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__Howardella	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__Lachnospiraceae ND3007 group	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__Tyzzerella 3	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__[Eubacterium] hallii group	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__[Ruminococcus] gnavus group	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;D_5__uncultured	1.0	1.0	1.0	1.0	27.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Lachnospiraceae;__	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Peptostreptococcaceae;D_5__Filifactor	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Peptostreptococcaceae;D_5__Sporacetigenium	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Ruminococcaceae;D_5__Subdoligranulum	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;D_4__Ruminococcaceae;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Clostridia;D_3__Clostridiales;__;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Firmicutes;D_2__Negativicutes;D_3__Selenomonadales;D_4__Veillonellaceae;D_5__Dialister	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Fusobacteria;D_2__Fusobacteriia;D_3__Fusobacteriales;D_4__Fusobacteriaceae;D_5__Fusobacterium	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Fusobacteria;D_2__Fusobacteriia;D_3__Fusobacteriales;D_4__Fusobacteriaceae;D_5__Psychrilyobacter	1.0	1.0	1.0	7.5	29.0	1.0	1.0	1.0	3.0	39.0
+D_0__Bacteria;D_1__Fusobacteria;D_2__Fusobacteriia;D_3__Fusobacteriales;D_4__Leptotrichiaceae;D_5__Leptotrichia	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Fusobacteria;D_2__Fusobacteriia;D_3__Fusobacteriales;D_4__Leptotrichiaceae;D_5__uncultured	1.0	1.0	1.0	1.0	25.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Gemmatimonadetes;D_2__BD2-11 terrestrial group;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Gemmatimonadetes;D_2__BD2-11 terrestrial group;__;__;__	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Gemmatimonadetes;D_2__Gemmatimonadetes;D_3__Gemmatimonadales;D_4__Gemmatimonadaceae;D_5__uncultured	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Gemmatimonadetes;D_2__PAUC43f marine benthic group;Ambiguous_taxa;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Kiritimatiellaeota;D_2__Kiritimatiellae;D_3__WCHB1-41;__;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Latescibacteria;D_2__Latescibacteria;D_3__Latescibacterales;D_4__Latescibacteraceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Latescibacteria;D_2__uncultured bacterium;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Latescibacteria;__;__;__;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Lentisphaerae;D_2__Lentisphaeria;D_3__Victivallales;D_4__Arctic95B-14;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Lentisphaerae;D_2__Oligosphaeria;D_3__P.palmC41;__;__	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Margulisbacteria;D_2__uncultured bacterium;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Marinimicrobia (SAR406 clade);D_2__uncultured bacterium;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Marinimicrobia (SAR406 clade);__;__;__;__	1.0	1.0	1.0	7.0	149.0	1.0	1.0	1.0	6.25	221.0
+D_0__Bacteria;D_1__Nitrospirae;D_2__Nitrospira;D_3__Nitrospirales;D_4__Nitrospiraceae;D_5__Nitrospira	1.0	1.0	1.0	10.5	78.0	1.0	1.0	1.0	2.5	94.0
+D_0__Bacteria;D_1__Nitrospirae;D_2__Thermodesulfovibrionia;D_3__uncultured;D_4__uncultured Nitrospiraceae bacterium;D_5__uncultured Nitrospiraceae bacterium	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Gracilibacteria;D_3__Absconditabacteriales (SR1);__;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Gracilibacteria;D_3__JGI 0000069-P22;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	3.0	13.5	68.0	1.0	1.0	1.0	15.0	54.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Gracilibacteria;D_3__JGI 0000069-P22;__;__	1.0	1.0	1.0	2.5	66.0	1.0	1.0	1.0	11.25	49.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Gracilibacteria;D_3__marine metagenome;D_4__marine metagenome;D_5__marine metagenome	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Gracilibacteria;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Gracilibacteria;__;__;__	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Patescibacteria;D_2__Saccharimonadia;D_3__Saccharimonadales;__;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Planctomycetes;D_2__OM190;D_3__uncultured marine bacterium;D_4__uncultured marine bacterium;D_5__uncultured marine bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Planctomycetes;D_2__Phycisphaerae;D_3__Phycisphaerales;D_4__Phycisphaeraceae;D_5__SM1A02	1.0	1.0	1.0	1.0	16.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Planctomycetes;D_2__Pla3 lineage;Ambiguous_taxa;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Planctomycetes;D_2__Pla3 lineage;D_3__unidentified marine bacterioplankton;D_4__unidentified marine bacterioplankton;D_5__unidentified marine bacterioplankton	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Hyphomonadaceae;D_5__Algimonas	1.0	1.0	16.0	127.5	238.0	1.0	1.0	13.5	85.5	219.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Hyphomonadaceae;D_5__Hellea	1.0	17.5	42.0	102.0	287.0	1.0	9.5	22.0	82.5	214.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Hyphomonadaceae;D_5__Henriciella	1.0	1.0	1.0	1.0	46.0	1.0	1.0	1.0	1.0	34.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Hyphomonadaceae;D_5__Litorimonas	1.0	5.0	31.0	78.0	323.0	1.0	1.0	18.0	70.25	215.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Hyphomonadaceae;D_5__uncultured	1.0	32.0	220.0	1205.0	3725.0	1.0	43.25	370.0	1099.25	3511.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Hyphomonadaceae;__	1.0	1.0	8.0	31.5	65.0	1.0	1.0	15.5	28.25	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Parvularculaceae;D_5__Parvularcula	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Parvularculaceae;D_5__uncultured	1.0	1.0	1.0	5.0	32.0	1.0	1.0	1.0	1.0	34.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Caulobacterales;D_4__Parvularculaceae;__	1.0	1.0	1.0	1.0	25.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Holosporales;D_4__Holosporaceae;D_5__uncultured	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Kordiimonadales;D_4__Kordiimonadaceae;D_5__Kordiimonas	1.0	1.0	17.0	41.0	152.0	1.0	1.0	11.0	40.0	233.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Kordiimonadales;D_4__uncultured;D_5__uncultured bacterium	1.0	1.0	1.0	8.5	32.0	1.0	1.0	1.0	5.25	39.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Kordiimonadales;D_4__uncultured;__	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	26.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Kordiimonadales;__;__	1.0	1.0	1.0	1.0	24.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Micavibrionales;D_4__Micavibrionaceae;D_5__uncultured	5.0	39.5	179.0	3769.0	8175.0	1.0	32.5	227.0	3021.0	8982.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Micavibrionales;D_4__uncultured;D_5__uncultured Rhizobiales bacterium	1.0	1.0	1.0	23.0	128.0	1.0	1.0	1.0	27.5	77.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Micavibrionales;D_4__uncultured;D_5__uncultured bacterium	1.0	35.5	56.0	219.5	559.0	1.0	29.0	66.5	276.0	962.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Micavibrionales;D_4__uncultured;D_5__uncultured organism	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Micavibrionales;D_4__uncultured;__	1.0	1.0	1.0	1.0	37.0	1.0	1.0	1.0	1.0	69.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Micavibrionales;__;__	1.0	1.0	1.0	1.0	32.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Paracaedibacterales;D_4__Paracaedibacteraceae;D_5__Candidatus Captivus	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	22.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Paracaedibacterales;D_4__Paracaedibacteraceae;D_5__uncultured	1.0	1.0	5.0	27.5	66.0	1.0	1.0	1.0	10.25	52.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Parvibaculales;D_4__PS1 clade;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	18.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Parvibaculales;D_4__PS1 clade;__	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	9.25	38.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Parvibaculales;D_4__Parvibaculaceae;D_5__Candidatus Phaeomarinobacter	1.0	1.0	1.0	9.5	34.0	1.0	1.0	1.0	7.25	29.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Parvibaculales;D_4__Parvibaculaceae;D_5__Mf105b01	1.0	1.0	7.0	21.0	66.0	1.0	1.0	11.0	18.25	61.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Parvibaculales;D_4__Parvibaculaceae;D_5__uncultured	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	32.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Puniceispirillales;D_4__SAR116 clade;D_5__Candidatus Puniceispirillum	1.0	1.0	1.0	1.0	43.0	1.0	1.0	1.0	1.0	56.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Puniceispirillales;D_4__SAR116 clade;__	1.0	1.0	1.0	5.5	61.0	1.0	1.0	1.0	6.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Puniceispirillales;D_4__uncultured;Ambiguous_taxa	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Puniceispirillales;D_4__uncultured;D_5__uncultured alpha proteobacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	3.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Puniceispirillales;D_4__uncultured;__	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Hyphomicrobiaceae;D_5__Filomicrobium	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	18.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__KF-JG30-B3;Ambiguous_taxa	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	18.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiaceae;D_5__Ahrensia	1.0	1.0	1.0	22.5	79.0	1.0	1.0	1.0	29.25	141.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiaceae;D_5__Cohaesibacter	1.0	1.0	1.0	1.0	33.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiaceae;D_5__Lentilitoribacter	1.0	17.0	46.0	144.5	306.0	1.0	1.0	45.0	87.5	199.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiaceae;D_5__Pseudahrensia	1.0	1.0	39.0	129.0	304.0	1.0	1.0	37.5	95.0	642.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiaceae;D_5__uncultured	1.0	22.0	93.0	457.0	1342.0	1.0	15.5	65.0	461.0	882.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiaceae;__	1.0	1.0	1.0	1.0	92.0	1.0	1.0	1.0	1.0	101.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Rhizobiales Incertae Sedis;D_5__Anderseniella	1.0	1.0	1.0	1.0	25.0	1.0	1.0	1.0	2.0	16.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Stappiaceae;D_5__Pseudovibrio	1.0	1.0	1.0	1.0	37.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Aliiroseovarius	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Amylibacter	1.0	63.5	147.0	425.5	6886.0	1.0	39.5	107.0	452.5	5882.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Boseongicola	1.0	1.0	1.0	4.0	33.0	1.0	1.0	1.0	1.0	92.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Dinoroseobacter	1.0	1.0	1.0	12.5	47.0	1.0	1.0	1.0	16.75	72.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Donghicola	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	58.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Halocynthiibacter	1.0	1.0	1.0	1.0	172.0	1.0	1.0	1.0	1.0	51.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Jannaschia	1.0	1.0	1.0	21.5	289.0	1.0	1.0	1.0	23.25	116.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Litoreibacter	1.0	1.0	1.0	1.0	246.0	1.0	1.0	1.0	6.0	224.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Loktanella	1.0	81.0	234.0	333.0	745.0	1.0	72.5	166.5	314.75	861.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Maribius	1.0	1.0	1.0	1.0	63.0	1.0	1.0	1.0	1.0	79.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Marinibacterium	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	27.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Marivita	1.0	1.0	1.0	1.5	46.0	1.0	1.0	1.0	2.25	60.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Nereida	1.0	1.0	1.0	1.0	31.0	1.0	1.0	1.0	1.0	99.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Octadecabacter	1.0	1.0	31.0	82.5	215.0	1.0	1.0	42.0	72.5	201.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Paracoccus	1.0	1.0	1.0	1.0	34.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Phaeobacter	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Planktomarina	1.0	1.0	1.0	7.0	75.0	1.0	1.0	1.0	1.0	63.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Planktotalea	1.0	1.0	1.0	1.0	117.0	1.0	1.0	1.0	1.0	101.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Pseudophaeobacter	1.0	1.0	1.0	28.5	201.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Pseudoruegeria	1.0	1.0	1.0	1.0	32.0	1.0	1.0	1.0	1.0	46.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Roseobacter	1.0	1.0	51.0	747.0	1052.0	1.0	1.0	93.5	744.5	1316.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Roseobacter clade NAC11-7 lineage	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	33.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Roseovarius	1.0	1.0	1.0	1.0	46.0	1.0	1.0	1.0	1.0	44.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Ruegeria	1.0	1.0	42.0	114.0	590.0	1.0	14.0	42.0	145.75	628.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Silicimonas	1.0	1.0	1.0	12.5	70.0	1.0	1.0	1.0	1.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Sulfitobacter	1.0	57.0	412.0	1065.0	2481.0	1.0	52.0	309.5	984.75	1925.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__Tateyamaria	1.0	1.0	1.0	21.5	86.0	1.0	1.0	1.0	37.75	86.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;D_5__uncultured	1.0	1.0	84.0	350.5	718.0	1.0	1.0	75.0	240.5	569.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodobacterales;D_4__Rhodobacteraceae;__	251.0	520.0	1495.0	5510.5	8906.0	115.0	403.5	1807.5	5213.25	9584.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__AEGEAN-169 marine group;__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Magnetospiraceae;D_5__Magnetospira	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Magnetospiraceae;D_5__Varunaivibrio	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Magnetospiraceae;D_5__uncultured	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Magnetospiraceae;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Rhodospirillaceae;D_5__Haematospirillum	1.0	1.0	1.0	1.0	22.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Terasakiellaceae;D_5__Terasakiella	1.0	1.0	1.0	1.0	16.0	1.0	1.0	1.0	1.0	23.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Terasakiellaceae;D_5__uncultured	1.0	1.0	1.0	2.5	42.0	1.0	1.0	1.0	1.0	43.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__Thalassospiraceae;D_5__Thalassospira	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__uncultured;Ambiguous_taxa	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__uncultured;D_5__marine metagenome	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__uncultured;D_5__uncultured Sphingomonas sp.	1.0	1.0	1.0	1.0	17.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__uncultured;D_5__uncultured soil bacterium	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;D_4__uncultured;__	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodospirillales;__;__	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodovibrionales;D_4__Kiloniellaceae;D_5__Kiloniella	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	43.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodovibrionales;D_4__Kiloniellaceae;D_5__Pelagibius	1.0	1.0	1.0	1.0	26.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhodovibrionales;D_4__Kiloniellaceae;D_5__uncultured	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__AB1;Ambiguous_taxa	1.0	1.0	1.0	1.0	51.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__AB1;D_5__Sinorickettsia chlamys	1.0	1.0	1.0	1.0	48.0	1.0	1.0	1.0	1.0	49.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__AB1;D_5__uncultured alpha proteobacterium	1.0	1.0	1.0	1.0	52.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__AB1;__	1.0	1.0	1.0	1.0	61.0	1.0	1.0	1.0	1.0	49.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Anaplasmataceae;D_5__Neorickettsia	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Midichloriaceae;D_5__Candidatus Jidaibacter	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Midichloriaceae;D_5__MD3-55	1.0	1.0	1.0	9.0	102.0	1.0	1.0	1.0	11.75	70.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Midichloriaceae;__	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Mitochondria;D_5__Spongospora subterranea	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Mitochondria;D_5__marine metagenome	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Mitochondria;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	50.0	1.0	1.0	1.0	1.5	29.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Mitochondria;D_5__uncultured organism	1.0	1.0	1.0	1.0	16.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Mitochondria;__	1.0	1.0	1.0	9.5	48.0	1.0	1.0	1.0	1.5	92.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Rickettsiaceae;D_5__Candidatus Cryptoprodotis	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Rickettsiaceae;D_5__Candidatus Megaira	1.0	4.0	74.0	463.0	1295.0	1.0	7.0	147.0	521.25	1631.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Rickettsiaceae;D_5__uncultured	1.0	1.0	1.0	8.5	35.0	1.0	1.0	1.0	6.5	92.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__Rickettsiaceae;__	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__SM2D12;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	33.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__SM2D12;D_5__uncultured organism	1.0	1.0	1.0	2.5	46.0	1.0	1.0	1.0	2.5	40.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__SM2D12;__	1.0	1.0	1.0	8.5	41.0	1.0	1.0	1.0	13.25	124.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;D_4__uncultured;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rickettsiales;__;__	1.0	1.0	1.0	1.0	22.0	1.0	1.0	1.0	4.5	33.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__SAR11 clade;D_4__Clade I;D_5__Clade Ia	1.0	1.0	1.0	1.0	40.0	1.0	1.0	1.0	1.0	26.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sneathiellales;D_4__Sneathiellaceae;D_5__Sneathiella	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae;D_5__Altererythrobacter	1.0	1.0	14.0	193.5	812.0	1.0	1.0	28.0	156.25	390.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae;D_5__Erythrobacter	1.0	1.0	40.0	258.0	1247.0	1.0	7.75	77.0	267.0	1075.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae;D_5__Parasphingopyxis	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	31.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae;D_5__Sphingomonas	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	93.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae;D_5__Sphingorhabdus	17.0	95.5	435.0	1792.5	7405.0	22.0	70.0	310.0	998.5	3626.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae;__	1.0	48.0	133.0	621.0	1582.0	1.0	24.5	193.5	507.25	1358.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Thalassobaculales;D_4__uncultured;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Tistrellales;D_4__Geminicoccaceae;D_5__Candidatus Alysiosphaera	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__uncultured;D_4__uncultured Rhodobacteraceae bacterium;D_5__uncultured Rhodobacteraceae bacterium	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__uncultured;D_4__uncultured alpha proteobacterium;D_5__uncultured alpha proteobacterium	1.0	1.0	1.0	1.0	23.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__uncultured;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__uncultured;D_4__unidentified marine bacterioplankton;D_5__unidentified marine bacterioplankton	1.0	1.0	1.0	1.0	23.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__uncultured;__;__	1.0	1.0	1.0	9.0	59.0	1.0	1.0	1.0	14.25	59.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;__;__;__	1.0	18.0	86.0	206.5	1219.0	1.0	12.5	105.5	194.0	1341.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bdellovibrionales;D_4__Bacteriovoracaceae;D_5__Halobacteriovorax	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	35.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bdellovibrionales;D_4__Bacteriovoracaceae;D_5__Peredibacter	1.0	13.0	57.0	238.0	556.0	1.0	15.75	55.0	241.25	524.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bdellovibrionales;D_4__Bacteriovoracaceae;D_5__uncultured	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	3.5	21.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bdellovibrionales;D_4__Bacteriovoracaceae;__	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bdellovibrionales;D_4__Bdellovibrionaceae;D_5__Bdellovibrio	1.0	3.5	30.0	84.0	351.0	1.0	5.0	19.0	94.5	317.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bdellovibrionales;D_4__Bdellovibrionaceae;D_5__OM27 clade	1.0	6.5	24.0	124.0	848.0	1.0	3.75	16.5	81.75	628.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bradymonadales;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	4.0	44.0	1.0	1.0	1.0	4.25	31.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bradymonadales;D_4__uncultured marine bacterium;D_5__uncultured marine bacterium	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Bradymonadales;__;__	1.0	1.0	6.0	14.0	118.0	1.0	1.0	6.5	15.25	66.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Deltaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__Deferrisoma	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfarculales;D_4__Desulfarculaceae;D_5__Desulfatiglans	1.0	1.0	1.0	1.0	27.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfarculales;D_4__Desulfarculaceae;D_5__uncultured	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;D_5__Desulfococcus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	36.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;D_5__Desulfoconvexum	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;D_5__Desulfosarcina	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;D_5__SEEP-SRB1	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;D_5__Sva0081 sediment group	1.0	1.0	1.0	6.5	45.0	1.0	1.0	1.0	2.75	59.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;D_5__uncultured	1.0	1.0	1.0	2.0	36.0	1.0	1.0	1.0	8.0	30.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobacteraceae;__	1.0	1.0	1.0	8.0	24.0	1.0	1.0	1.0	1.0	25.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;D_5__Desulfobulbus	1.0	1.0	1.0	1.0	23.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;D_5__Desulfocapsa	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;D_5__Desulfopila	1.0	1.0	1.0	1.0	35.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;D_5__Desulforhopalus	1.0	1.0	1.0	7.5	33.0	1.0	1.0	1.0	1.0	26.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;D_5__Desulfotalea	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;D_5__uncultured	1.0	8.5	20.0	38.5	149.0	1.0	1.0	18.5	32.0	109.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfobacterales;D_4__Desulfobulbaceae;__	1.0	1.0	1.0	1.0	38.0	1.0	1.0	1.0	1.0	36.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfovibrionales;D_4__Desulfomicrobiaceae;D_5__Desulfoplanes	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfovibrionales;D_4__Desulfovibrionaceae;D_5__Halodesulfovibrio	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfuromonadales;D_4__Desulfuromonadaceae;D_5__Desulfuromusa	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfuromonadales;D_4__Geobacteraceae;D_5__Geothermobacter	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfuromonadales;D_4__Sva1033;__	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Desulfuromonadales;__;__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__MBNT15;__;__	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__BIrii41;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__BIrii41;__	1.0	1.0	1.0	1.0	26.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Blfdi19;Ambiguous_taxa	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Blfdi19;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Blfdi19;__	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Haliangiaceae;D_5__Haliangium	1.0	1.0	1.0	1.0	488.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__MidBa8;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__MidBa8;D_5__uncultured proteobacterium	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__MidBa8;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	10.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Nannocystaceae;D_5__Nannocystis	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Nannocystaceae;D_5__uncultured	1.0	1.0	1.0	3.0	30.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Nannocystaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Nannocystaceae;__	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	46.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__P3OB-42;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__P3OB-42;D_5__uncultured delta proteobacterium	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__P3OB-42;__	1.0	1.0	1.0	1.0	32.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__PS-B29;__	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Sandaracinaceae;D_5__Sandaracinus	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Sandaracinaceae;D_5__uncultured	1.0	1.0	1.0	13.0	123.0	1.0	1.0	7.5	17.0	89.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__Sandaracinaceae;__	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__bacteriap25;D_5__uncultured organism	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;D_4__bacteriap25;__	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Myxococcales;__;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__NB1-j;D_4__hydrothermal vent metagenome;D_5__hydrothermal vent metagenome	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__NB1-j;D_4__marine metagenome;D_5__marine metagenome	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__NB1-j;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__NB1-j;D_4__uncultured organism;D_5__uncultured organism	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__NB1-j;D_4__uncultured prokaryote;D_5__uncultured prokaryote	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__NB1-j;__;__	1.0	1.0	1.0	7.5	51.0	1.0	1.0	1.0	12.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Oligoflexales;D_4__0319-6G20;D_5__uncultured deep-sea bacterium	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Oligoflexales;D_4__0319-6G20;__	1.0	1.0	1.0	1.0	33.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Oligoflexales;D_4__Oligoflexaceae;D_5__Pseudobacteriovorax	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Oligoflexales;D_4__Oligoflexaceae;D_5__uncultured	1.0	1.0	10.0	35.5	717.0	1.0	1.0	4.0	37.75	543.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__PB19;D_4__Deltaproteobacteria bacterium SMP-3;D_5__Deltaproteobacteria bacterium SMP-3	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__PB19;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__PB19;D_4__uncultured delta proteobacterium;D_5__uncultured delta proteobacterium	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__PB19;__;__	1.0	1.0	1.0	1.0	17.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__SAR324 clade(Marine group B);D_4__Candidatus Nitrosoarchaeum limnia SFB1;D_5__Candidatus Nitrosoarchaeum limnia SFB1	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__SAR324 clade(Marine group B);D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	25.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__SAR324 clade(Marine group B);__;__	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Sva0485;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Sva0485;D_4__metagenome;D_5__metagenome	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Sva0485;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Sva0485;__;__	1.0	1.0	1.0	1.0	33.0	1.0	1.0	1.0	1.0	26.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;D_3__Syntrophobacterales;D_4__Syntrophobacteraceae;D_5__uncultured	1.0	1.0	1.0	1.0	47.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Deltaproteobacteria;__;__;__	1.0	1.0	1.0	1.0	41.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Aestuariibacter	1.0	11.0	98.0	252.0	358.0	1.0	6.75	106.0	167.25	504.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Aliiglaciecola	1.0	1.0	1.0	14.5	169.0	1.0	1.0	1.0	16.0	86.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Alteromonas	1.0	1.0	42.0	139.5	331.0	1.0	1.0	27.0	88.5	307.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Catenovulum	1.0	1.0	1.0	1.0	41.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Glaciecola	51.0	128.0	303.0	414.0	1713.0	15.0	109.0	214.5	325.25	1505.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Paraglaciecola	1.0	1.0	5.0	33.5	157.0	1.0	1.0	1.5	16.25	179.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__Salinimonas	1.0	1.0	1.0	1.0	27.0	1.0	1.0	1.0	1.0	21.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;D_5__uncultured	1.0	1.0	7.0	31.5	405.0	1.0	1.0	4.0	18.0	243.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Alteromonadaceae;__	1.0	196.0	462.0	955.5	2968.0	1.0	163.5	349.0	921.75	2861.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Colwelliaceae;D_5__Colwellia	1.0	1.0	770.0	1930.5	8369.0	1.0	9.25	838.5	1467.25	7505.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Colwelliaceae;D_5__Thalassomonas	1.0	1.0	1.0	1.0	59.0	1.0	1.0	1.0	1.0	73.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Colwelliaceae;D_5__Thalassotalea	1.0	1.0	233.0	536.5	2746.0	1.0	1.0	174.0	451.5	3453.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Colwelliaceae;__	1.0	1.0	1.0	11.5	80.0	1.0	1.0	1.0	9.25	276.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Marinobacteraceae;D_5__Marinobacter	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Moritellaceae;D_5__Paramoritella	1.0	1.0	1.0	1.0	68.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Pseudoalteromonadaceae;D_5__Algicola	1.0	1.0	1.0	41.0	232.0	1.0	1.0	1.0	48.0	178.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Pseudoalteromonadaceae;D_5__Pseudoalteromonas	1.0	2.5	450.0	1397.0	4804.0	1.0	1.0	447.5	2159.0	7336.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Pseudoalteromonadaceae;D_5__Psychrosphaera	1.0	1.0	1.0	15.5	48.0	1.0	1.0	1.0	13.75	92.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Pseudoalteromonadaceae;D_5__uncultured	1.0	1.0	1.0	22.5	632.0	1.0	1.0	1.0	3.0	552.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Pseudoalteromonadaceae;__	1.0	1.0	1.0	30.5	202.0	1.0	1.0	1.0	32.25	300.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Shewanellaceae;D_5__Ferrimonas	1.0	1.0	1.0	1.0	37.0	1.0	1.0	1.0	1.0	30.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Alteromonadales;D_4__Shewanellaceae;D_5__Shewanella	1.0	1.0	8.0	34.0	202.0	1.0	1.0	5.5	27.75	79.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Arenicellales;D_4__Arenicellaceae;D_5__Arenicella	70.0	500.5	1438.0	2597.5	9613.0	207.0	666.75	2282.5	3371.5	9784.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Arenicellales;D_4__Arenicellaceae;D_5__HTCC5015	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Arenicellales;D_4__Arenicellaceae;D_5__Perspicuibacter	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Arenicellales;D_4__Arenicellaceae;D_5__uncultured	1.0	1.0	1.0	1.0	51.0	1.0	1.0	1.0	1.0	22.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Arenicellales;D_4__Arenicellaceae;__	1.0	1.0	1.0	13.5	36.0	1.0	1.0	1.0	3.5	59.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__B2M28;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__B2M28;__;__	1.0	1.0	1.0	1.0	16.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__BD72BR169;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Beggiatoales;D_4__Beggiatoaceae;__	1.0	1.0	1.0	1.0	76.0	1.0	1.0	1.0	1.0	252.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Burkholderiaceae;D_5__Massilia	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	35.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Burkholderiaceae;__	1.0	1.0	1.0	1.0	22.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__EC94;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__EC94;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Methylophilaceae;D_5__Methylotenera	1.0	1.0	1.0	6.0	40.0	1.0	1.0	1.0	1.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Methylophilaceae;D_5__OM43 clade	1.0	1.0	1.0	16.5	163.0	1.0	1.0	1.0	15.25	307.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Neisseriaceae;D_5__uncultured	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Nitrosomonadaceae;D_5__IS-44	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Nitrosomonadaceae;D_5__Nitrosomonas	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Nitrosomonadaceae;D_5__oc32	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Nitrosomonadaceae;__	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__T34;D_5__metagenome	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	21.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__CHAB-XI-27;__;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Cellvibrionaceae;D_5__Aestuariicella	1.0	1.0	103.0	151.5	556.0	1.0	1.0	50.5	128.75	379.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Cellvibrionaceae;D_5__Candidatus Endobugula	1.0	17.5	39.0	105.5	617.0	1.0	11.75	36.0	97.75	563.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Cellvibrionaceae;D_5__Eionea	1.0	9.5	98.0	707.0	7830.0	1.0	1.0	64.0	403.0	4748.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Cellvibrionaceae;D_5__Marinagarivorans	1.0	1.0	1.0	11.5	68.0	1.0	1.0	1.0	11.25	238.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Cellvibrionaceae;D_5__uncultured	1.0	13.0	35.0	120.0	647.0	1.0	8.75	37.5	84.0	363.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Cellvibrionaceae;__	1.0	1.0	3.0	25.0	184.0	1.0	1.0	1.0	19.5	381.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Halieaceae;D_5__Congregibacter	1.0	1.0	6.0	40.5	146.0	1.0	1.0	1.0	17.25	133.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Halieaceae;D_5__Halioglobus	1.0	29.0	69.0	137.0	340.0	1.0	25.5	73.5	91.25	350.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Halieaceae;D_5__Luminiphilus	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Halieaceae;D_5__OM60(NOR5) clade	1.0	1.0	21.0	46.0	348.0	1.0	1.0	12.5	38.25	112.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Halieaceae;__	1.0	24.5	56.0	161.0	397.0	1.0	21.25	57.5	143.0	441.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Porticoccaceae;D_5__C1-B045	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Porticoccaceae;__	1.0	1.0	1.0	1.0	26.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Spongiibacteraceae;D_5__BD1-7 clade	1.0	18.0	31.0	109.0	211.0	1.0	23.0	45.0	103.75	174.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Spongiibacteraceae;D_5__Dasania	1.0	1.0	1.0	17.5	64.0	1.0	1.0	9.0	21.5	214.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Spongiibacteraceae;D_5__Sinobacterium	1.0	11.0	23.0	132.5	1434.0	1.0	14.5	41.0	163.75	640.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Spongiibacteraceae;D_5__uncultured	1.0	1.0	1.0	1.0	33.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Cellvibrionales;D_4__Spongiibacteraceae;__	1.0	1.0	9.0	25.5	949.0	1.0	1.0	3.0	31.75	665.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Chromatiales;D_4__Chromatiaceae;D_5__Candidatus Thiobios	1.0	1.0	1.0	1.0	34.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Chromatiales;D_4__Sedimenticolaceae;D_5__Sedimenticola	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Coxiellales;D_4__Coxiellaceae;D_5__Coxiella	1.0	1.0	1.0	13.5	52.0	1.0	1.0	1.0	11.25	44.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Diplorickettsiales;D_4__Diplorickettsiaceae;D_5__Aquicella	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Diplorickettsiales;D_4__Diplorickettsiaceae;D_5__uncultured	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EC3;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	33.0	1.0	1.0	1.0	1.0	21.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EC3;D_4__uncultured gamma proteobacterium;D_5__uncultured gamma proteobacterium	1.0	1.0	1.0	1.0	16.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EC3;__;__	1.0	1.0	1.0	7.5	41.0	1.0	1.0	1.0	6.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EPR3968-O8a-Bc78;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EPR3968-O8a-Bc78;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EPR3968-O8a-Bc78;__;__	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__EV818SWSAP88;__;__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	27.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Ectothiorhodospirales;D_4__Ectothiorhodospiraceae;D_5__uncultured	1.0	1.0	1.0	10.0	59.0	1.0	1.0	1.0	8.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Enterobacteriales;D_4__Enterobacteriaceae;__	1.0	1.0	1.0	1.0	96.0	1.0	1.0	1.0	1.0	66.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__F9P41300-M23;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Francisellales;D_4__Francisellaceae;D_5__Francisella	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	56.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Francisellales;D_4__Francisellaceae;D_5__uncultured	1.0	1.0	1.0	1.0	50.0	1.0	1.0	1.0	1.0	31.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Francisellales;D_4__Francisellaceae;__	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__Alkalimarinus	1.0	1.0	1.0	12.0	58.0	1.0	1.0	1.0	6.75	146.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__Candidatus Berkiella	1.0	1.0	1.0	19.5	118.0	1.0	1.0	1.0	15.0	56.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__Marinicella	1.0	8.5	37.0	61.0	256.0	1.0	10.0	25.5	61.25	180.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__uncultured	1.0	1.0	12.0	33.5	100.0	1.0	1.0	8.0	18.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	14.0	1.0	1.0	1.0	1.0	30.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;D_5__uncultured gamma proteobacterium	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Gammaproteobacteria Incertae Sedis;D_4__Unknown Family;__	1.0	1.0	1.0	10.0	660.0	1.0	1.0	1.0	25.0	483.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__HOC36;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__HOC36;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__HOC36;D_4__uncultured sediment bacterium;D_5__uncultured sediment bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__HOC36;__;__	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__JTB23;D_4__uncultured gamma proteobacterium;D_5__uncultured gamma proteobacterium	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__JTB23;__;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	27.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__KI89A clade;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	7.5	148.0	1.0	1.0	1.0	10.25	213.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__KI89A clade;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	24.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__KI89A clade;D_4__uncultured deep-sea bacterium;D_5__uncultured deep-sea bacterium	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__KI89A clade;D_4__uncultured marine bacterium;D_5__uncultured marine bacterium	1.0	1.0	1.0	1.0	17.0	1.0	1.0	1.0	1.0	15.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__KI89A clade;__;__	1.0	1.0	1.0	12.5	47.0	1.0	1.0	1.0	9.5	90.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Legionellales;D_4__Legionellaceae;D_5__Legionella	1.0	1.0	1.0	15.0	312.0	1.0	1.0	1.0	10.0	186.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Legionellales;D_4__Legionellaceae;D_5__uncultured	1.0	1.0	7.0	20.0	114.0	1.0	1.0	1.0	20.0	72.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__MBAE14;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	24.0	1.0	1.0	1.0	1.0	33.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__MD2904-B13;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Milano-WF1B-44;__;__	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__NKB5;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__NKB5;__;__	1.0	1.0	1.0	34.5	247.0	1.0	1.0	1.0	43.0	242.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Nitrosococcales;D_4__Nitrosococcaceae;D_5__AqS1	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Nitrosococcales;D_4__Nitrosococcaceae;D_5__Cm1-21	1.0	1.0	1.0	1.0	35.0	1.0	1.0	1.0	7.0	20.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Nitrosococcales;D_4__Nitrosococcaceae;D_5__FS142-36B-02	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Nitrosococcales;D_4__Nitrosococcaceae;__	1.0	1.0	1.0	1.0	32.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__OM182 clade;__;__	1.0	1.0	1.0	6.5	28.0	1.0	1.0	1.0	1.0	14.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Alcanivoracaceae;D_5__Alcanivorax	1.0	1.0	1.0	5.0	121.0	1.0	1.0	1.0	9.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Endozoicomonadaceae;D_5__Endozoicomonas	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	36.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Endozoicomonadaceae;D_5__Kistimonas	1.0	1.0	1.0	1.0	60.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Gven-F17;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	47.0	1.0	1.0	1.0	1.0	13.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Gven-F17;D_5__uncultured sediment bacterium	1.0	1.0	15.0	20.5	160.0	1.0	1.0	5.0	20.0	56.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Gven-F17;__	1.0	1.0	1.0	1.0	36.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Hahellaceae;D_5__Hahella	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Halomonadaceae;D_5__Cobetia	1.0	1.0	1.0	1.0	120.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Halomonadaceae;D_5__Halomonas	1.0	1.0	1.0	1.0	29.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Halomonadaceae;D_5__Oceanospirillum	1.0	1.0	1.0	1.0	124.0	1.0	1.0	1.0	1.0	56.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Kangiellaceae;D_5__Aliikangiella	1.0	1.0	1.0	24.5	663.0	1.0	1.0	1.0	30.75	684.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Kangiellaceae;D_5__Kangiella	1.0	1.0	1.0	1.0	122.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Kangiellaceae;D_5__Pleionea	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Marinomonadaceae;D_5__Marinomonas	1.0	1.0	1.0	30.0	489.0	1.0	1.0	1.0	41.25	301.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__Amphritea	1.0	1.0	1.0	11.5	151.0	1.0	1.0	1.0	9.25	47.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__Corallomonas	1.0	1.0	1.0	1.0	35.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__Marinobacterium	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__Neptuniibacter	1.0	1.0	1.0	14.5	53.0	1.0	1.0	1.0	5.75	52.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__Neptunomonas	1.0	1.0	1.0	1.0	26.0	1.0	1.0	1.0	1.0	44.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__Profundimonas	1.0	1.0	1.0	1.0	53.0	1.0	1.0	1.0	1.0	33.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;D_5__uncultured	1.0	1.0	17.0	61.5	673.0	1.0	1.0	22.5	48.75	315.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Nitrincolaceae;__	1.0	1.0	1.0	1.0	26.0	1.0	1.0	1.0	1.0	17.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Oleiphilaceae;D_5__Oleiphilus	19.0	189.0	717.0	1135.0	5475.0	32.0	138.0	643.5	1913.0	9706.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__P13-46;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	19.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Pseudohongiellaceae;D_5__Pseudohongiella	1.0	1.0	1.0	15.5	54.0	1.0	1.0	1.0	7.25	50.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__SS1-B-06-26;__	1.0	1.0	1.0	1.0	69.0	1.0	1.0	1.0	17.75	110.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Bermanella	1.0	1.0	1.0	3.0	51.0	1.0	1.0	1.0	19.25	73.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Litoribacillus	1.0	1.0	1.0	6.5	85.0	1.0	1.0	1.0	18.0	176.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Oceaniserpentilla	1.0	1.0	1.0	38.5	140.0	1.0	1.0	1.0	29.25	210.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Oleibacter	1.0	1.0	21.0	119.5	559.0	1.0	1.0	44.5	342.75	1217.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Oleispira	1.0	1.0	866.0	6632.0	14719.0	1.0	1.0	620.0	5567.25	18399.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Reinekea	1.0	1.0	1.0	1.0	43.0	1.0	1.0	1.0	16.25	232.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__Thalassolituus	1.0	1.0	1.0	4.5	81.0	1.0	1.0	1.0	1.0	51.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__uncultured	1.0	1.0	1601.0	4814.5	13008.0	1.0	1.0	388.0	3530.25	9852.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	52.0	1.0	1.0	1.0	1.0	35.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;D_4__Saccharospirillaceae;__	1.0	1.0	1509.0	9087.5	18941.0	1.0	1.0	419.5	5230.75	12085.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Oceanospirillales;__;__	1.0	1.0	1.0	1.0	18.0	1.0	1.0	1.0	1.0	32.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Piscirickettsiales;D_4__Piscirickettsiaceae;D_5__Candidatus Endoecteinascidia	1.0	1.0	1.0	1.0	21.0	1.0	1.0	1.0	1.0	20.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Piscirickettsiales;D_4__Piscirickettsiaceae;D_5__Piscirickettsia	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Pseudomonadales;D_4__Moraxellaceae;D_5__Acinetobacter	1.0	1.0	1.0	1.0	90.0	1.0	1.0	1.0	1.0	29.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Pseudomonadales;D_4__Moraxellaceae;D_5__Paraperlucidibaca	1.0	1.0	1.0	1.0	20.0	1.0	1.0	1.0	1.0	19.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Pseudomonadales;D_4__Moraxellaceae;D_5__Psychrobacter	1.0	1.0	1.0	3.0	189.0	1.0	1.0	1.0	2.5	68.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Pseudomonadales;D_4__Pseudomonadaceae;D_5__Pseudomonas	1.0	1.0	1.0	1.0	78.0	1.0	1.0	1.0	1.0	2.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__S1-3-65;D_4__endosymbiont of Vannella sp. A1;D_5__endosymbiont of Vannella sp. A1	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__SAR86 clade;D_4__uncultured gamma proteobacterium HF0070_25G02;D_5__uncultured gamma proteobacterium HF0070_25G02	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__SAR86 clade;__;__	1.0	1.0	1.0	30.5	214.0	1.0	1.0	1.0	15.25	223.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Salinisphaerales;D_4__Salinisphaeraceae;D_5__Salinisphaera	1.0	1.0	1.0	1.0	37.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Salinisphaerales;D_4__Solimonadaceae;D_5__Panacagrimonas	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Steroidobacterales;D_4__Woeseiaceae;D_5__Woeseia	1.0	1.0	1.0	6.5	56.0	1.0	1.0	1.0	1.0	64.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Tenderiales;D_4__Tenderiaceae;D_5__Candidatus Tenderia	1.0	1.0	1.0	8.0	94.0	1.0	1.0	1.0	14.5	129.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiohalorhabdales;D_4__Thiohalorhabdaceae;D_5__Granulosicoccus	1.0	1.0	15.0	80.5	492.0	1.0	6.0	27.5	59.0	1270.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiohalorhabdales;D_4__Thiohalorhabdaceae;D_5__uncultured	1.0	1.0	1.0	1.0	27.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiomicrospirales;D_4__Thioglobaceae;D_5__SUP05 cluster	1.0	1.0	1.0	1.0	87.0	1.0	1.0	1.0	4.0	61.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiomicrospirales;D_4__Thiomicrospiraceae;D_5__Thiomicrorhabdus	1.0	1.0	1.0	1.0	22.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiomicrospirales;D_4__Thiomicrospiraceae;D_5__endosymbionts	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	11.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiotrichales;D_4__Thiotrichaceae;D_5__Thiothrix	1.0	1.0	13.0	54.5	183.0	1.0	1.0	13.0	38.0	168.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Thiotrichales;D_4__Thiotrichaceae;D_5__uncultured	1.0	1.0	1.0	1.0	55.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__UBA10353 marine group;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	40.0	1.0	1.0	1.0	1.0	27.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__UBA10353 marine group;__;__	1.0	1.0	1.0	3.0	30.0	1.0	1.0	1.0	1.0	53.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__UBA4486;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	24.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Vibrionales;D_4__Vibrionaceae;D_5__Aliivibrio	1.0	1.0	1.0	1.0	139.0	1.0	1.0	1.0	1.0	16.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Vibrionales;D_4__Vibrionaceae;D_5__Enterovibrio	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	52.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Vibrionales;D_4__Vibrionaceae;D_5__Photobacterium	1.0	1.0	1.0	25.0	289.0	1.0	1.0	1.0	21.25	76.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Vibrionales;D_4__Vibrionaceae;D_5__Vibrio	1.0	50.0	88.0	191.0	2593.0	1.0	34.25	74.5	200.5	1495.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Vibrionales;D_4__Vibrionaceae;__	1.0	1.0	1.0	19.0	166.0	1.0	1.0	1.0	4.0	198.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Xanthomonadales;D_4__Rhodanobacteraceae;D_5__uncultured	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	26.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Xanthomonadales;D_4__Xanthomonadaceae;D_5__Luteimonas	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Xanthomonadales;D_4__Xanthomonadaceae;D_5__Stenotrophomonas	1.0	1.0	1.0	1.0	78.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Xanthomonadales;__;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__eub62A3;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__pItb-vmat-80;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	31.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__uncultured;Ambiguous_taxa;Ambiguous_taxa	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	12.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__uncultured;D_4__uncultured Thioalkalivibrio sp.;D_5__uncultured Thioalkalivibrio sp.	1.0	1.0	1.0	1.0	30.0	1.0	1.0	1.0	1.0	31.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__uncultured;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	5.5	38.0	1.0	1.0	1.0	1.0	155.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__uncultured;__;__	1.0	1.0	1.0	8.0	129.0	1.0	1.0	1.0	5.75	28.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;__;__;__	1.0	48.5	85.0	233.0	718.0	4.0	82.75	115.0	250.25	1007.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Magnetococcia;D_3__Magnetococcales;D_4__Magnetococcaceae;D_5__Magnetococcus	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Proteobacteria;D_2__Zetaproteobacteria;D_3__Mariprofundales;D_4__Mariprofundaceae;D_5__Mariprofundus	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Proteobacteria;__;__;__;__	1.0	1.0	1.0	1.0	10.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Leptospirae;D_3__Leptospirales;D_4__Leptospiraceae;D_5__Turneriella	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Spirochaetia;D_3__Spirochaetales;D_4__Spirochaetaceae;D_5__GWE2-31-10	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Spirochaetia;D_3__Spirochaetales;D_4__Spirochaetaceae;D_5__Sediminispirochaeta	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Spirochaetia;D_3__Spirochaetales;D_4__Spirochaetaceae;D_5__Spirochaeta 2	1.0	1.0	1.0	1.0	11.0	1.0	1.0	1.0	1.0	28.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Spirochaetia;D_3__Spirochaetales;D_4__Spirochaetaceae;D_5__Treponema 2	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Spirochaetia;D_3__Spirochaetales;D_4__Spirochaetaceae;D_5__uncultured	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Spirochaetes;D_2__Spirochaetia;D_3__Spirochaetales;D_4__Spirochaetaceae;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Tenericutes;D_2__Mollicutes;D_3__Anaeroplasmatales;D_4__Anaeroplasmataceae;D_5__Anaeroplasma	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+D_0__Bacteria;D_1__Tenericutes;D_2__Mollicutes;D_3__Entomoplasmatales;D_4__Entomoplasmatales Incertae Sedis;D_5__Candidatus Hepatoplasma	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	4.0
+D_0__Bacteria;D_1__Tenericutes;D_2__Mollicutes;D_3__Izimaplasmatales;D_4__Izimaplasmataceae;D_5__Izimaplasma	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Tenericutes;D_2__Mollicutes;D_3__Izimaplasmatales;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	31.0	1.0	1.0	1.0	1.0	23.0
+D_0__Bacteria;D_1__Tenericutes;D_2__Mollicutes;D_3__Mycoplasmatales;D_4__Mycoplasmataceae;D_5__Candidatus Bacilloplasma	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Tenericutes;D_2__Mollicutes;D_3__Mycoplasmatales;D_4__Mycoplasmataceae;D_5__Mycoplasma	1.0	1.0	1.0	1.0	9.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Pedosphaerales;D_4__Pedosphaeraceae;D_5__SCGC AAA164-E04	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Pedosphaerales;D_4__Pedosphaeraceae;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Pedosphaerales;D_4__Pedosphaeraceae;__	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Verrucomicrobiales;D_4__DEV007;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	8.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Verrucomicrobiales;D_4__DEV007;__	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	6.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Verrucomicrobiales;D_4__Rubritaleaceae;D_5__Roseibacillus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;__;__;__	1.0	1.0	1.0	1.0	8.0	1.0	1.0	1.0	1.0	5.0
+D_0__Bacteria;D_1__Zixibacteria;D_2__uncultured bacterium;D_3__uncultured bacterium;D_4__uncultured bacterium;D_5__uncultured bacterium	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	9.0
+D_0__Bacteria;__;__;__;__;__	1.0	1.0	1.0	2.0	35.0	1.0	1.0	1.0	1.0	36.0
