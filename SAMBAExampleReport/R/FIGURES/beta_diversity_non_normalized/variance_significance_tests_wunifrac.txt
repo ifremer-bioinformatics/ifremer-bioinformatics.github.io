@@ -8,13 +8,13 @@ Number of permutations: 9999
 
 Terms added sequentially (first to last)
 
-                  Df SumsOfSqs   MeanSqs F.Model      R2 Pr(>F)    
-material           1  0.000294 0.0002936   1.221 0.00446 0.2765    
-time               5  0.049789 0.0099578  41.398 0.75636 0.0001 ***
-replicat           1  0.000153 0.0001528   0.635 0.00232 0.6124    
-extraction_method  1  0.000679 0.0006785   2.821 0.01031 0.0321 *  
-Residuals         62  0.014913 0.0002405         0.22655           
-Total             70  0.065828                   1.00000           
+                  Df SumsOfSqs  MeanSqs F.Model      R2 Pr(>F)    
+material           1   0.00258 0.002581   1.814 0.00368 0.1503    
+time               5   0.60581 0.121162  85.157 0.86288 0.0001 ***
+replicat           1   0.00308 0.003078   2.164 0.00438 0.1197    
+extraction_method  1   0.00240 0.002398   1.685 0.00342 0.1779    
+Residuals         62   0.08821 0.001423         0.12565           
+Total             70   0.70208                  1.00000           
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
