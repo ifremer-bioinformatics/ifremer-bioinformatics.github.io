@@ -58,6 +58,8 @@
                 <a href="#BioinformaticSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Bioinformatic process</a>
                 <ul class="collapse list-unstyled" id="BioinformaticSubmenu">
                     
+                        <li><a href="#data-integrity">Data integrity</a></li>
+                    
                     <li><a href="#importing-raw-data">Importing raw data</a></li>
                     <li><a href="#primers-removal">Primers removal</a></li>
                     <li><a href="#qc-feature-table">QC and feature table</a></li>
@@ -108,7 +110,7 @@
         <h1 id="description">Description of the workflow</h1>
         <br>
         <div style="text-align: justify">
-            The <b>SAMBA workflow</b>, developed by the <b>SeBiMER</b> (Ifremer's Bioinformatics platform) is an open-source modular workflow
+            The <b>SAMBA workflow</b>, developed by the <b>SeBiMER</b> (Ifremer's Bioinformatics Core Facility) is an open-source modular workflow
             to process eDNA metabarcoding data. SAMBA is developped using the NextFlow workflow manager (Di Tommaso <i>et al.</i>, 2017). SAMBA is built
             around three main parts: data integrity checking, bioinformatics processes and statistical analyses. The SAMBA checking process
             allows to verify the integrity of the raw data. All bioinformatics processes are mainly based on the use of the next-generation
@@ -196,6 +198,24 @@
         <br>
         
         <h1 id="bioinformatic">Bioinformatic process</h1>
+        
+        <h3 id ="data-integrity">Data integrity [optional]</h3>
+        <br>
+        <div style="text-align: justify">
+            This first step allows to <b>analyze the integrity of your data</b> in order to identify
+            potential problems related to the sequencing processes. It checks:
+            <ul>
+                <li>that each read is correctly associated with the proper sample (sequence barcode verification)</li>
+                <li>that they come from a single sequencer</li>
+                <li>the efficiency of forward and reverse PCR amplification</li>
+            </ul>
+            <b>This step is carried out by a homemade script</b>
+        </div>
+        <br>
+        <div class="results">Results</div>
+        <hr class="results">
+        <ul style="margin: 0 ; padding: 1 ;"><li>All data integrity verification are summarized in <a class="link" href="./data_integrity.csv">this csv file</a></li></ul>
+        <br>
         
         <h3 id="importing-raw-data">Importing raw data</h3>
         <br>
@@ -296,7 +316,7 @@
             <li>Details about the samples can be found by going to <a class="link" target="_blank" href="./dada2_output/sample-frequency-detail.html">this interactive html page</a></li>
             <li>Finally, you can retrieved the reference sequences of your ASVs in <a class="link" target="_blank" href="./dada2_output/sequences.fasta">this fasta</a></li>
             <br>
-            <font color="red"><b>A total of 8199 ASVs was obtained at this step</b></font>
+            <font color="red"><b>A total of 8376 ASVs was obtained at this step</b></font>
         </ul>
         <br>
         <!--  -->
@@ -330,7 +350,7 @@
             <li>Details about the samples can be found by going to <a class="link" target="_blank" href="./dbotu3_output/sample-frequency-detail.html">this interactive html page</a></li>
             <li>Finally, you can retrieved the reference sequences of your ASVs in <a class="link" target="_blank" href="./dbotu3_output/sequences.fasta">this fasta</a></li>
             <br>
-            <font color="red"><b>A total of 4281 ASVs remain after this step. dbOTU3 allowed to cluster 3918 ASVs with others ASVs (i.e. about 47.79% clustering). </b></font>
+            <font color="red"><b>A total of 4399 ASVs remain after this step. dbOTU3 allowed to cluster 3977 ASVs with others ASVs (i.e. about 47.48% clustering). </b></font>
         </ul>
         <br>
         
@@ -388,7 +408,7 @@
             <li>All ASVs listed <a class="link" target="_blank" href="./microDecon/ASV_removed.txt">here</a> were removed because they were in the majority in the control samples         </li>
             <li>For all ASVs listed <a class="link" target="_blank" href="./microDecon/abundance_removed.txt">here</a>, a proportion of sequences were removed in each sample. Note that this file also contains the ASVs unique to the controls which have therefore been removed.</li>
             <br>
-            <font color="red"><b>A total of 3911 ASVs remain after this step. MicroDecon removed 370 ASVs (219 ASVs were unique to controls).</b></font>
+            <font color="red"><b>A total of 4019 ASVs remain after this step. MicroDecon removed 380 ASVs (225 ASVs were unique to controls).</b></font>
         </ul>
         <br>
         
@@ -543,15 +563,15 @@
             <a class="link" target="_blank" href="./ancom_output/export_ancom__genus/index.html">genus level</a>
             <br>
             
-            - Number of significantly differentially abundant ASVs: <span class="highlight">457</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_time/ancom.tsv">[Full list]</a>
+            - Number of significantly differentially abundant ASVs: <span class="highlight">467</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_time/ancom.tsv">[Full list]</a>
             
             <br>
             
-            - Number of significantly differentially abundant family: <span class="highlight">72</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_time_family/ancom.tsv">[Full list]</a>
+            - Number of significantly differentially abundant family: <span class="highlight">62</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_time_family/ancom.tsv">[Full list]</a>
             
             <br>
             
-            - Number of significantly differentially abundant genus: <span class="highlight"> 165</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_time_genus/ancom.tsv">[Full list]</a>
+            - Number of significantly differentially abundant genus: <span class="highlight"> 158</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_time_genus/ancom.tsv">[Full list]</a>
             
         </ul>
         
@@ -3174,8 +3194,7 @@
         <h5 style="margin-left: 10px">Contributors</h5>
         <hr class="results">
         <div style="text-align: justify">
-            SAMBA was originally written developped by <a style="color: #007bff" href="https://bioinfo.ifremer.fr" target="_blank">SeBiMER</a>
-            plateform at <a style="color: #007bff" href="https://wwz.ifremer.fr/en" target="_blank">Ifremer</a>
+            SAMBA is developped by <a style="color: #007bff" href="https://wwz.ifremer.fr/en" target="_blank">Ifremer</a>'s Bioinformatics Core Facility (<a style="color: #007bff" href="https://ifremer-bioinformatics.github.io/" target="_blank">SeBiMER</a>)
             (French Research Institute for Exploitation of the Sea).
         </div>
         <br>

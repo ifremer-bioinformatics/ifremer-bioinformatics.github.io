@@ -6,12 +6,12 @@
 
                      summary(anova.Observed)
                   Df Sum Sq Mean Sq F value   Pr(>F)    
-Depth              1 437291  437291 105.079 6.85e-15 ***
-material           1      0       0   0.000    0.997    
-time               5 440905   88181  21.190 3.22e-12 ***
-replicat           1   1326    1326   0.319    0.574    
-extraction_method  1   9961    9961   2.394    0.127    
-Residuals         61 253854    4162                     
+Depth              1 133274  133274  28.006 1.74e-06 ***
+material           1    375     375   0.079    0.780    
+time               5 513505  102701  21.581 2.28e-12 ***
+replicat           1   1120    1120   0.235    0.629    
+extraction_method  1   8168    8168   1.716    0.195    
+Residuals         61 290287    4759                     
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
@@ -24,12 +24,12 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
                      summary(anova.Chao1)
                   Df Sum Sq Mean Sq F value   Pr(>F)    
-Depth              1 448104  448104 105.298 6.58e-15 ***
-material           1      1       1   0.000    0.985    
-time               5 445119   89024  20.919 4.10e-12 ***
-replicat           1   1723    1723   0.405    0.527    
-extraction_method  1   8903    8903   2.092    0.153    
-Residuals         61 259590    4256                     
+Depth              1 135755  135755  27.858 1.83e-06 ***
+material           1    488     488   0.100    0.753    
+time               5 521641  104328  21.409 2.65e-12 ***
+replicat           1   1383    1383   0.284    0.596    
+extraction_method  1   7148    7148   1.467    0.231    
+Residuals         61 297260    4873                     
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
@@ -42,12 +42,12 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
                      summary(anova.Shannon)
                   Df Sum Sq Mean Sq F value   Pr(>F)    
-Depth              1  1.103   1.103  12.941 0.000645 ***
-material           1  0.304   0.304   3.565 0.063765 .  
-time               5 28.785   5.757  67.559  < 2e-16 ***
-replicat           1  0.020   0.020   0.238 0.627730    
-extraction_method  1  0.859   0.859  10.085 0.002345 ** 
-Residuals         61  5.198   0.085                     
+Depth              1  1.510   1.510  16.929 0.000118 ***
+material           1  0.416   0.416   4.659 0.034839 *  
+time               5 28.600   5.720  64.122  < 2e-16 ***
+replicat           1  0.019   0.019   0.215 0.644663    
+extraction_method  1  0.749   0.749   8.395 0.005218 ** 
+Residuals         61  5.441   0.089                     
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
@@ -60,12 +60,12 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
                      summary(anova.InvSimpson)
                   Df Sum Sq Mean Sq F value   Pr(>F)    
-Depth              1    177   176.8   1.655  0.20312    
-material           1    157   156.6   1.466  0.23068    
-time               5  14092  2818.3  26.385 4.36e-14 ***
-replicat           1     16    15.7   0.147  0.70245    
-extraction_method  1   1001  1000.8   9.370  0.00328 ** 
-Residuals         61   6516   106.8                     
+Depth              1    204   204.0   1.836  0.18039    
+material           1    207   207.2   1.865  0.17708    
+time               5  14150  2830.0  25.477 8.86e-14 ***
+replicat           1     16    15.5   0.140  0.70995    
+extraction_method  1    820   819.7   7.379  0.00857 ** 
+Residuals         61   6776   111.1                     
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
@@ -77,13 +77,13 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
                      anova.Pielou <-aov( Pielou  ~  Depth + material + time + replicat + extraction_method, anova_data)
 
                      summary(anova.Pielou)
-                  Df Sum Sq Mean Sq F value  Pr(>F)    
-Depth              1 0.0064 0.00641   5.115 0.02730 *  
-material           1 0.0079 0.00786   6.273 0.01495 *  
-time               5 0.6236 0.12472  99.571 < 2e-16 ***
-replicat           1 0.0001 0.00013   0.101 0.75199    
-extraction_method  1 0.0192 0.01920  15.329 0.00023 ***
-Residuals         61 0.0764 0.00125                    
+                  Df Sum Sq Mean Sq F value   Pr(>F)    
+Depth              1 0.0060 0.00600   4.838 0.031633 *  
+material           1 0.0131 0.01307  10.528 0.001911 ** 
+time               5 0.5897 0.11794  95.027  < 2e-16 ***
+replicat           1 0.0001 0.00014   0.110 0.740935    
+extraction_method  1 0.0158 0.01577  12.708 0.000715 ***
+Residuals         61 0.0757 0.00124                     
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
