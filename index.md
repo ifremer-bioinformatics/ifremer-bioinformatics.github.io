@@ -21,7 +21,7 @@ Find here some of our free and open source projects.
 
 ## SAMBA
 
-[SAMBA](https://github.com/ifremer-bioinformatics/samba) is an NF-CORE based metabarcoding data analysis workflow. View [SAMBA example report](./SAMBAExampleReport/SAMBA_report.html)!
+[SAMBA](https://github.com/ifremer-bioinformatics/samba) is an NF-CORE based metabarcoding data analysis workflow. View [SAMBA example report](./SAMBAExampleReport)!
 
 ## ToolDirectory
 
