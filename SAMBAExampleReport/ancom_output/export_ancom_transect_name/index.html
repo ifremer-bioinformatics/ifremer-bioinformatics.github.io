@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_composition : ancom</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+  <script src="js/vega.min.js"></script>
+  <script src="js/vega-embed.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/spinkit.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+<div class="row">
+  <div class="col-lg-8">
+    <h3>ANCOM Volcano Plot</h3>
+    <div id="toolbar"></div>
+    
+    <div id="plot">
+      <div id="loading" class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h4>ANCOM statistical results</h4>
+    
+      <p class="alert alert-warning">No significant features found</p>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Percentile abundances of features by group</h4>
+    
+      <p class="alert alert-warning">No significant features found</p>
+    
+  </div>
+</div>
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+
+
+
+
+
+<script type="text/javascript">
+  function handleErrors(errors, element, msg) {
+    console.error(errors);
+    msg = msg === undefined ? '' : msg + '<br><br>';
+    var helpMsg = '<p class="alert alert-danger"> \
+                   There was an error loading and rendering the \
+                   visualization.<br><br>' + msg + 'Please \
+                   copy-and-paste the following error messages when \
+                   reporting this error (please be aware that the content \
+                   of your analysis data and/or metadata is included in \
+                   these messages):</p>';
+    var helpMsgDiv = $('<div></div>');
+    helpMsgDiv.append(helpMsg);
+    helpMsgDiv.append('<pre><code>' + errors.join('\n\n') + '</code></pre>');
+    element.replaceWith(helpMsgDiv);
+  }
+  window.onerror = function(error) {
+    handleErrors([error], $('#loading'));
+  };
+</script>
+
+<script id="spec" type="application/json">{"$schema": "https://vega.github.io/schema/vega/v4.json", "width": 300, "height": 300, "data": [{"name": "values", "values": [{"id": "040bd74a5c9b1a37501cd9fc4c554326", "log": 2.4986110171292255, "W": 0}, {"id": "0af4cbf343a41e0918a14ae9efd16b85", "log": 0.9999999999999993, "W": 0}, {"id": "1007aa7447de0d03999cd1d4b705fc6e", "log": 0.9999999999999993, "W": 0}, {"id": "120eba657e42a11a5c29f97b90f02035", "log": 1.0000000000000004, "W": 0}, {"id": "16b5e084ce3fa000b8baf838d1651cac", "log": 1.0000000000000004, "W": 0}, {"id": "16f300a764ed32dd3259f6be8ff697de", "log": 1.0, "W": 0}, {"id": "1845147963cd510356415ead4dd51a54", "log": 2.466858683752327, "W": 0}, {"id": "1a13aa0e275f8a68d1e0a21f363c48ee", "log": 0.9999999999999994, "W": 0}, {"id": "1ad0a10889a7fb58f2efcd87c34762c8", "log": 0.9999999999999998, "W": 0}, {"id": "1cf3091df59b743cd09e8a600ed77e56", "log": 1.0000000000000002, "W": 0}, {"id": "1de2ecdddbc8ce077238379a1441395e", "log": 4.895988097564152, "W": 0}, {"id": "1e0c75e0c253b0e15290f96a9f46eafb", "log": 1.0, "W": 0}, {"id": "227b7a4c194ea39cf3686d285a93541a", "log": 4.880884623373061, "W": 0}, {"id": "26005dfb7ad2e8cdbb139846af329663", "log": 0.999999999999999, "W": 0}, {"id": "2925112033f3dedb4435bb4abbe46bca", "log": 0.9999999999999998, "W": 0}, {"id": "2b72096f534765592523ca5d7a0240bb", "log": 1.0, "W": 0}, {"id": "2c7404df256076e438837d1840b39b92", "log": 0.9999999999999999, "W": 0}, {"id": "2d16d001e21717f960cf771ae879b1dd", "log": 1.0, "W": 0}, {"id": "36bc22ce12f97e108bc8dc054ef4557c", "log": 2.4143703949577593, "W": 0}, {"id": "3a1dde207e40b02833a6d2aadc1af504", "log": 1.0000000000000002, "W": 0}, {"id": "3a22176a6f33fddedcdecae67e4e0a0b", "log": 0.9999999999999998, "W": 0}, {"id": "3c5d8fec31a71d2667d1b944b8acfc41", "log": 1.0, "W": 0}, {"id": "4002f0543db91f322222a5d2eaabc998", "log": 1.0, "W": 0}, {"id": "475466b882ed396887ccb3af92e5cccc", "log": 2.3985265535964615, "W": 0}, {"id": "49550ed1a1c3f44c5e01cf61f4711408", "log": 0.9999999999999998, "W": 0}, {"id": "4a08e67f2cf611db9e6b52d72dda0f98", "log": 0.9999999999999998, "W": 0}, {"id": "4a876672f1d4e0c1f0ecb009f1bcf3f8", "log": 0.9999999999999997, "W": 0}, {"id": "4b02604233d33077d0a6fbf2fa7518ce", "log": 1.0000000000000002, "W": 0}, {"id": "4c94fdb429e29377ee23c7a4617e8036", "log": 1.0, "W": 0}, {"id": "4d1bb77a4abea73ade570c276299c27c", "log": 1.0000000000000004, "W": 0}, {"id": "4db695d7e72c26aa07480d5dd1a4cb8b", "log": 0.9999999999999998, "W": 0}, {"id": "50af92111d1cc3dd9110795e6d4c9ab4", "log": 1.0000000000000004, "W": 0}, {"id": "534e80999091ab28e227c935ee5685ca", "log": 0.9999999999999996, "W": 0}, {"id": "57b5e10f0ec0e9babf1662865819ce7d", "log": 1.0, "W": 0}, {"id": "6232159dc74c7a4c9ec0c6d80669e717", "log": 0.9999999999999997, "W": 0}, {"id": "62b2a5b0c25eabd6570273eddda7f8cc", "log": 1.0, "W": 0}, {"id": "62b48fadd7a3f6ad143d63d8019965a7", "log": 0.9999999999999997, "W": 0}, {"id": "63137380e368f194aa2f0e9fa36175ad", "log": 0.9999999999999996, "W": 0}, {"id": "67abed6a1448c13adeb170ba58e33bc6", "log": 1.0, "W": 0}, {"id": "6ae87e66ab72fe66c8bb06420a01f35c", "log": 1.0000000000000002, "W": 0}, {"id": "6e02d11d7f4f656a76fd84c963e43d32", "log": 1.6649119576290794, "W": 0}, {"id": "70b338a2a70ac201e959801377ca1a67", "log": 1.0000000000000004, "W": 0}, {"id": "71923645b013a71e5c95817c0ef6e632", "log": 0.9999999999999997, "W": 0}, {"id": "71c3bff3b412ff1dd60f6b068b7bf2a2", "log": 4.678221067911958, "W": 0}, {"id": "734fa3c52693c43fa8553bc838c983bd", "log": 1.0, "W": 0}, {"id": "74a26e97b02fcab82b0d346de4920f75", "log": 2.416496330501117, "W": 0}, {"id": "7653cdca9bdece4101e95cd83ac1fc8e", "log": 2.478405796819805, "W": 0}, {"id": "7788202c026a5cd7cdc551efcc31a772", "log": 2.472597184754813, "W": 0}, {"id": "79c18ec88e3d4a3650837e44dadbdeef", "log": 0.9999999999999997, "W": 0}, {"id": "7b4dc2a4aeb030b99ef802e33fbe4992", "log": 1.0000000000000002, "W": 0}, {"id": "7b84a3d7debf326a97ca9dc359cf85ba", "log": 0.9999999999999999, "W": 0}, {"id": "7c2811bbf4c76ca806ce4178a5ecb7fe", "log": 1.0000000000000002, "W": 0}, {"id": "7def7c494fa125a2c9aff76c2c4299e1", "log": 1.0000000000000002, "W": 0}, {"id": "7ff346973a282aa55de296afdb5d74af", "log": 2.250135492566913, "W": 0}, {"id": "84351f43af04791ddd7762ac90f5bb66", "log": 2.247639965766229, "W": 0}, {"id": "8562afaf3955423d4eda6d71b8b277d8", "log": 1.0, "W": 0}, {"id": "8583dcad97509e4202b4419e15240646", "log": 0.9999999999999997, "W": 0}, {"id": "85fca7d0ba5e9b3a3198961bd9557f18", "log": 1.0000000000000002, "W": 0}, {"id": "8636abf388c9038378458173a353329a", "log": 0.9999999999999999, "W": 0}, {"id": "8b49e37e3c87b34b3cf8fa98e87b9e56", "log": 0.9999999999999999, "W": 0}, {"id": "8c94311c5cf293c9be710636bb34308c", "log": 1.0000000000000002, "W": 0}, {"id": "8f076acdd38ed1eb6abf991a913ff572", "log": 0.010831286027124604, "W": 0}, {"id": "918aacff114c0defcef36b73158f1b8a", "log": 0.9999999999999997, "W": 0}, {"id": "95b0d4f1aee6d2f42602026d5c634276", "log": 1.0000000000000002, "W": 0}, {"id": "97711b6725048d75708e14a354d8f7e9", "log": 1.0000000000000002, "W": 0}, {"id": "991a602547f6ea6e07d1d76e012c3b6a", "log": 0.9999999999999994, "W": 0}, {"id": "9c7afae42de0e487b1bea3fd3deda062", "log": 1.0, "W": 0}, {"id": "9ebd33169a6be011a108ff2661ae2bc6", "log": 0.9999999999999998, "W": 0}, {"id": "a026bde3c0ca9bde27fd6809a698ca4c", "log": 0.9999999999999998, "W": 0}, {"id": "a285136eb52ed887013aaa7917ce5051", "log": 1.0000000000000007, "W": 0}, {"id": "a8046176932cf5a294394dd2675f8c22", "log": 1.0000000000000002, "W": 0}, {"id": "a97cb0eaa4fefb313021cf1c914d4d69", "log": 2.488832388033588, "W": 0}, {"id": "aaee72db82e53b7fb23ab936df1b21eb", "log": 1.0000000000000002, "W": 0}, {"id": "ab739e2a81fc51badb0314796a80b8e3", "log": 0.9999999999999998, "W": 0}, {"id": "af04bea31b2bb5e842073a8a2cc21594", "log": 2.4991274281713896, "W": 0}, {"id": "b36e7574c17f176c241e74a1d8ee4516", "log": 0.9999999999999997, "W": 0}, {"id": "b8c4ed03d7d91546b9f6ad80b80135a3", "log": 0.9999999999999993, "W": 0}, {"id": "b8ff9a1ad168679de422e9f2ca7d93be", "log": 1.0, "W": 0}, {"id": "bc612d4c3acf4a92f287291ae2e2b17a", "log": 1.0000000000000002, "W": 0}, {"id": "c31e5f9e619e3bf13270587d9661b2c3", "log": 0.9999999999999993, "W": 0}, {"id": "c4ced83f238480e548bda34de7029e46", "log": 1.0000000000000002, "W": 0}, {"id": "c856e83fd500753d3d6723ca0ce6be7a", "log": 1.0, "W": 0}, {"id": "cdbdfcf9d07df5f505d3d118284fd7c7", "log": 0.9999999999999993, "W": 0}, {"id": "d829bee4984f82ffc2453212157caf96", "log": 1.0000000000000002, "W": 0}, {"id": "daae3699c460e7d41ec585f2d1241c4f", "log": 3.2648112871838584, "W": 0}, {"id": "dd3d36fd596e048a228a8837fc847f49", "log": 1.0, "W": 0}, {"id": "dd93a5212cf24a278d626226f6441d93", "log": 1.0, "W": 0}, {"id": "def70e1254bdff0306c7222befc35a46", "log": 1.0000000000000002, "W": 0}, {"id": "e85685f382b9280b7967fedf480bbe16", "log": 1.0000000000000002, "W": 0}, {"id": "eabc9259185e62f712715d6e75532581", "log": 0.9999999999999997, "W": 0}, {"id": "ed3d7020f31a64a765244b28d6ca4be7", "log": 2.48627799168041, "W": 0}, {"id": "f2fd9d7b74d80ad0cc6f3439e6325d27", "log": 1.103263791148298, "W": 0}, {"id": "f3bb89b490e8a3194866d1250f10bf53", "log": 1.0000000000000002, "W": 0}, {"id": "f98debb75a37c5b06ba598a461fbd1bf", "log": 2.498799056709375, "W": 0}, {"id": "fa5b352730242707ddceef48a51bd6e4", "log": 1.0000000000000002, "W": 0}, {"id": "fe6694352a51046d87e7037d64ebdd6c", "log": 0.9999999999999996, "W": 0}]}], "scales": [{"name": "xScale", "domain": {"data": "values", "field": "log"}, "range": "width"}, {"name": "yScale", "domain": {"data": "values", "field": "W"}, "range": "height"}], "axes": [{"scale": "xScale", "orient": "bottom", "title": "log"}, {"scale": "yScale", "orient": "left", "title": "W"}], "marks": [{"type": "symbol", "from": {"data": "values"}, "encode": {"hover": {"fill": {"value": "#FF0000"}, "opacity": {"value": 1}}, "enter": {"x": {"scale": "xScale", "field": "log"}, "y": {"scale": "yScale", "field": "W"}}, "update": {"fill": {"value": "black"}, "opacity": {"value": 0.3}, "tooltip": {"signal": "{'title': datum['index'], 'log': datum['log'], 'W': datum['W']}"}}}}]}</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var spec = JSON.parse(document.getElementById('spec').innerHTML);
+
+    // Try and come up with a good initial estimate of plot dimensions,
+    // based on the browser dimensions.
+    var width = $('#plot').width() / 1.5;
+    var opts = {width: width, height: width / 2};
+
+    vegaEmbed('#plot', spec, opts).then(function(result) {
+      result.view.logLevel(vega.Warn);
+      // Stash the view object in global namespace for debugging purposes.
+      // Check out https://vega.github.io/vega/docs/api/debugging/
+      // for more details.
+      window.v = result.view;
+    }).catch(function(error) {
+      // From 'js-error-handler.html'
+      handleErrors([error], $('#plot'));
+    });
+
+    // Clean up the vega-embed toolbar
+    var toolbar = $('div .vega-actions').detach();
+    toolbar.addClass('btn-group');
+    toolbar.children('a').each(function() {
+      $(this).addClass('btn btn-default');
+    });
+    $('<a href="data.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">Export as TSV</a>')
+      .prependTo(toolbar);
+    toolbar.appendTo('#toolbar');
+
+    // Util to mutate elements in-place
+    function cleanupEl(el, label, form_el) {
+      var e = $(el + ' .vega-bind');
+      e.children('span').replaceWith('<label>' + label + '&nbsp;</label');
+      if (form_el !== undefined) {
+        e.children(form_el).addClass('form-control');
+      }
+    }
+  });
+</script>
+
+
+  </body>
+</html>

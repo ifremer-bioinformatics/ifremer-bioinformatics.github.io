@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_composition : ancom</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+  <script src="js/vega.min.js"></script>
+  <script src="js/vega-embed.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/spinkit.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+<div class="row">
+  <div class="col-lg-8">
+    <h3>ANCOM Volcano Plot</h3>
+    <div id="toolbar"></div>
+    
+    <div id="plot">
+      <div id="loading" class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h4>ANCOM statistical results</h4>
+    
+      <div class="table-responsive">
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>W</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>D_0__Bacteria;D_1__Actinobacteria;D_2__MB-A2-108;D_3__uncultured bacterium;D_4__uncultured bacterium</th>
+      <td>26</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+      <a href="ancom.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+        Download table as TSV
+      </a>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Percentile abundances of features by group</h4>
+    
+      <div class="table-responsive">
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Percentile</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+    </tr>
+    <tr>
+      <th>Group</th>
+      <th>BAQ4166</th>
+      <th>BAQ4166</th>
+      <th>BAQ4166</th>
+      <th>BAQ4166</th>
+      <th>BAQ4166</th>
+      <th>BAQ4697</th>
+      <th>BAQ4697</th>
+      <th>BAQ4697</th>
+      <th>BAQ4697</th>
+      <th>BAQ4697</th>
+      <th>YUN3428</th>
+      <th>YUN3428</th>
+      <th>YUN3428</th>
+      <th>YUN3428</th>
+      <th>YUN3428</th>
+      <th>YUN3856</th>
+      <th>YUN3856</th>
+      <th>YUN3856</th>
+      <th>YUN3856</th>
+      <th>YUN3856</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>D_0__Bacteria;D_1__Actinobacteria;D_2__MB-A2-108;D_3__uncultured bacterium;D_4__uncultured bacterium</th>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>27.0</td>
+      <td>47.5</td>
+      <td>68.0</td>
+      <td>68.5</td>
+      <td>69.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+      <a href="percent-abundances.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+        Download table as TSV
+      </a>
+    
+  </div>
+</div>
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+
+
+
+
+
+<script type="text/javascript">
+  function handleErrors(errors, element, msg) {
+    console.error(errors);
+    msg = msg === undefined ? '' : msg + '<br><br>';
+    var helpMsg = '<p class="alert alert-danger"> \
+                   There was an error loading and rendering the \
+                   visualization.<br><br>' + msg + 'Please \
+                   copy-and-paste the following error messages when \
+                   reporting this error (please be aware that the content \
+                   of your analysis data and/or metadata is included in \
+                   these messages):</p>';
+    var helpMsgDiv = $('<div></div>');
+    helpMsgDiv.append(helpMsg);
+    helpMsgDiv.append('<pre><code>' + errors.join('\n\n') + '</code></pre>');
+    element.replaceWith(helpMsgDiv);
+  }
+  window.onerror = function(error) {
+    handleErrors([error], $('#loading'));
+  };
+</script>
+
+<script id="spec" type="application/json">{"$schema": "https://vega.github.io/schema/vega/v4.json", "width": 300, "height": 300, "data": [{"name": "values", "values": [{"id": "D_0__Archaea;D_1__Euryarchaeota;D_2__Thermoplasmata;D_3__Marine Group II;D_4__uncultured haloarchaeon", "log": 1.0000000000000007, "W": 1}, {"id": "D_0__Archaea;D_1__Thaumarchaeota;D_2__Nitrososphaeria;D_3__Nitrososphaerales;D_4__Nitrososphaeraceae", "log": 0.8574226010620063, "W": 0}, {"id": "D_0__Bacteria;D_1__Acidobacteria;D_2__Acidobacteriia;D_3__Acidobacteriales;D_4__Acidobacteriaceae (Subgroup 1)", "log": 0.9999999999999999, "W": 1}, {"id": "D_0__Bacteria;D_1__Acidobacteria;D_2__Blastocatellia (Subgroup 4);D_3__Blastocatellales;D_4__Blastocatellaceae", "log": 1.0000000000000004, "W": 1}, {"id": "D_0__Bacteria;D_1__Acidobacteria;D_2__Blastocatellia (Subgroup 4);D_3__Pyrinomonadales;D_4__Pyrinomonadaceae", "log": 0.3525033098028013, "W": 0}, {"id": "D_0__Bacteria;D_1__Acidobacteria;D_2__Holophagae;D_3__Subgroup 7;D_4__uncultured bacterium", "log": 1.0000000000000002, "W": 0}, {"id": "D_0__Bacteria;D_1__Acidobacteria;D_2__Subgroup 6;__;__", "log": 1.6974420395641994, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__0319-7L14;D_3__uncultured actinobacterium;D_4__uncultured actinobacterium", "log": 1.0000000000000007, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Acidimicrobiia;D_3__IMCC26256;__", "log": 3.875875955218598, "W": 2}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Corynebacteriales;D_4__Mycobacteriaceae", "log": 2.1444139679404817, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Frankiales;D_4__Geodermatophilaceae", "log": 0.9999999999999998, "W": 1}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Microbacteriaceae", "log": 0.9999999999999997, "W": 1}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Micrococcales;D_4__Micrococcaceae", "log": 15.087909570435546, "W": 2}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Propionibacteriales;D_4__Nocardioidaceae", "log": 0.9999999999999994, "W": 1}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Streptomycetales;D_4__Streptomycetaceae", "log": 0.6722961072018182, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Actinobacteria;D_3__Streptosporangiales;D_4__Thermomonosporaceae", "log": 0.9999999999999999, "W": 1}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__MB-A2-108;Ambiguous_taxa;Ambiguous_taxa", "log": 0.6676628267984005, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__MB-A2-108;D_3__uncultured alpha proteobacterium;D_4__uncultured alpha proteobacterium", "log": 1.0000000000000004, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__MB-A2-108;D_3__uncultured bacterium;D_4__uncultured bacterium", "log": 159.25147768177806, "W": 26}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__MB-A2-108;__;__", "log": 1.0, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Rubrobacteria;D_3__Rubrobacterales;D_4__Rubrobacteriaceae", "log": 3.9961588266825316, "W": 1}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Gaiellales;D_4__Gaiellaceae", "log": 0.6680029088060705, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Gaiellales;D_4__uncultured", "log": 1.3060682448685639, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Gaiellales;__", "log": 0.9999999999999996, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Solirubrobacterales;D_4__67-14", "log": 0.7251657973553426, "W": 0}, {"id": "D_0__Bacteria;D_1__Actinobacteria;D_2__Thermoleophilia;D_3__Solirubrobacterales;D_4__Solirubrobacteraceae", "log": 1.8024739740317886, "W": 0}, {"id": "D_0__Bacteria;D_1__Bacteroidetes;D_2__Bacteroidia;D_3__Sphingobacteriales;D_4__Sphingobacteriaceae", "log": 0.9999999999999999, "W": 1}, {"id": "D_0__Bacteria;D_1__Chloroflexi;D_2__Gitt-GS-136;Ambiguous_taxa;Ambiguous_taxa", "log": 3.895335278659414, "W": 0}, {"id": "D_0__Bacteria;D_1__Chloroflexi;D_2__Gitt-GS-136;__;__", "log": 1.0000000000000004, "W": 1}, {"id": "D_0__Bacteria;D_1__Chloroflexi;D_2__KD4-96;__;__", "log": 1.2385728207517412, "W": 0}, {"id": "D_0__Bacteria;D_1__Chloroflexi;D_2__P2-11E;D_3__uncultured bacterium;D_4__uncultured bacterium", "log": 1.0000000000000002, "W": 1}, {"id": "D_0__Bacteria;D_1__Chloroflexi;D_2__TK10;Ambiguous_taxa;Ambiguous_taxa", "log": 1.0000000000000002, "W": 2}, {"id": "D_0__Bacteria;D_1__Chloroflexi;D_2__TK10;D_3__uncultured bacterium;D_4__uncultured bacterium", "log": 1.0000000000000004, "W": 1}, {"id": "D_0__Bacteria;D_1__Entotheonellaeota;D_2__Entotheonellia;D_3__Entotheonellales;D_4__Entotheonellaceae", "log": 3.996193011367192, "W": 1}, {"id": "D_0__Bacteria;D_1__Firmicutes;D_2__Bacilli;D_3__Bacillales;D_4__Bacillaceae", "log": 0.7005971153252578, "W": 0}, {"id": "D_0__Bacteria;D_1__Firmicutes;D_2__Bacilli;D_3__Bacillales;D_4__Paenibacillaceae", "log": 0.9999999999999994, "W": 1}, {"id": "D_0__Bacteria;D_1__Gemmatimonadetes;D_2__Gemmatimonadetes;D_3__Gemmatimonadales;D_4__Gemmatimonadaceae", "log": 0.13909204456893995, "W": 0}, {"id": "D_0__Bacteria;D_1__Patescibacteria;D_2__Saccharimonadia;D_3__Saccharimonadales;D_4__uncultured bacterium", "log": 1.0000000000000004, "W": 1}, {"id": "D_0__Bacteria;D_1__Planctomycetes;D_2__Planctomycetacia;D_3__Pirellulales;D_4__Pirellulaceae", "log": 1.0000000000000002, "W": 1}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Beijerinckiaceae", "log": 0.9999999999999997, "W": 0}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Hyphomicrobiaceae", "log": 0.9999999999999991, "W": 1}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__Xanthobacteraceae", "log": 1.0000000000000002, "W": 1}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Rhizobiales;D_4__uncultured", "log": 0.9999999999999997, "W": 1}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Alphaproteobacteria;D_3__Sphingomonadales;D_4__Sphingomonadaceae", "log": 0.20940468373240023, "W": 0}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__AT-s2-59;D_4__uncultured sediment bacterium", "log": 1.0000000000000004, "W": 1}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Betaproteobacteriales;D_4__Burkholderiaceae", "log": 0.9999999999999996, "W": 1}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Nitrosococcales;D_4__Nitrosococcaceae", "log": 5.626747766552512, "W": 0}, {"id": "D_0__Bacteria;D_1__Proteobacteria;D_2__Gammaproteobacteria;D_3__Steroidobacterales;D_4__Steroidobacteraceae", "log": 1.0, "W": 1}, {"id": "D_0__Bacteria;D_1__Rokubacteria;D_2__NC10;D_3__Rokubacteriales;Ambiguous_taxa", "log": 0.6849538117566962, "W": 1}, {"id": "D_0__Bacteria;D_1__Verrucomicrobia;D_2__Verrucomicrobiae;D_3__Chthoniobacterales;D_4__Chthoniobacteraceae", "log": 1.0250479549470115, "W": 0}]}], "scales": [{"name": "xScale", "domain": {"data": "values", "field": "log"}, "range": "width"}, {"name": "yScale", "domain": {"data": "values", "field": "W"}, "range": "height"}], "axes": [{"scale": "xScale", "orient": "bottom", "title": "log"}, {"scale": "yScale", "orient": "left", "title": "W"}], "marks": [{"type": "symbol", "from": {"data": "values"}, "encode": {"hover": {"fill": {"value": "#FF0000"}, "opacity": {"value": 1}}, "enter": {"x": {"scale": "xScale", "field": "log"}, "y": {"scale": "yScale", "field": "W"}}, "update": {"fill": {"value": "black"}, "opacity": {"value": 0.3}, "tooltip": {"signal": "{'title': datum['index'], 'log': datum['log'], 'W': datum['W']}"}}}}]}</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var spec = JSON.parse(document.getElementById('spec').innerHTML);
+
+    // Try and come up with a good initial estimate of plot dimensions,
+    // based on the browser dimensions.
+    var width = $('#plot').width() / 1.5;
+    var opts = {width: width, height: width / 2};
+
+    vegaEmbed('#plot', spec, opts).then(function(result) {
+      result.view.logLevel(vega.Warn);
+      // Stash the view object in global namespace for debugging purposes.
+      // Check out https://vega.github.io/vega/docs/api/debugging/
+      // for more details.
+      window.v = result.view;
+    }).catch(function(error) {
+      // From 'js-error-handler.html'
+      handleErrors([error], $('#plot'));
+    });
+
+    // Clean up the vega-embed toolbar
+    var toolbar = $('div .vega-actions').detach();
+    toolbar.addClass('btn-group');
+    toolbar.children('a').each(function() {
+      $(this).addClass('btn btn-default');
+    });
+    $('<a href="data.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">Export as TSV</a>')
+      .prependTo(toolbar);
+    toolbar.appendTo('#toolbar');
+
+    // Util to mutate elements in-place
+    function cleanupEl(el, label, form_el) {
+      var e = $(el + ' .vega-bind');
+      e.children('span').replaceWith('<label>' + label + '&nbsp;</label');
+      if (form_el !== undefined) {
+        e.children(form_el).addClass('form-control');
+      }
+    }
+  });
+</script>
+
+
+  </body>
+</html>
