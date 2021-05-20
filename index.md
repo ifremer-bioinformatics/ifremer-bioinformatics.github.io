@@ -23,11 +23,19 @@ Find here some of our free and open source projects.
 
 [SAMBA](https://github.com/ifremer-bioinformatics/samba) is a Nextflow based metabarcoding data analysis workflow. View [SAMBA example report](./SAMBAExampleReport/SAMBA_report.html).
 
+## ORSON
+
+[ORSON](https://github.com/ifremer-bioinformatics/orson) is a Nextflow based for proteome and transcriptome functional annotation.
+
 ## ToolDirectory
 
 [ToolDirectory](https://github.com/ifremer-bioinformatics/ToolDirectory) is a dynamic software catalogue viewer. View ToolDirectory [at work](./ToolDirectorySample)!
 
 ## BeeDeeM
 
-[BeeDeeM](https://github.com/ifremer-bioinformatics/BeeDeeM) is a bioinformatics databank manager. 
+[BeeDeeM](https://github.com/pgdurand/BeeDeeM) is a bioinformatics databank manager. 
+
+## BlastViewer
+
+[BlastViewer](https://github.com/pgdurand/BlastViewer) is a graphical tool to handle analysis BLAST, PLAST or Diamond results. Also capable of importing InterproScan results. 
 
