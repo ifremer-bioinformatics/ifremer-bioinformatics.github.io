@@ -1,3 +1,0 @@
-ASV_ID	control	BAQ4166.1	BAQ4166.2	BAQ4166.3	BAQ4697.1	BAQ4697.2	BAQ4697.3	YUN3428.1	YUN3428.2	YUN3428.3	YUN3856.1	YUN3856.2	YUN3856.3	taxonomy
-a5e48b027fcf233fa5c9a33e67ddd2c4	27	NA	NA	NA	43	96	61	NA	NA	NA	NA	NA	NA	D_0__Bacteria; D_1__Actinobacteria; D_2__Thermoleophilia; D_3__Gaiellales; D_4__Gaiellaceae; D_5__Gaiella
-b1930448a1fb27ac60d9812ffd967f80	42	NA	NA	NA	109	26	123	NA	NA	NA	29	NA	NA	D_0__Bacteria; D_1__Proteobacteria; D_2__Gammaproteobacteria; D_3__Nitrosococcales; D_4__Nitrosococcaceae; D_5__wb1-P19; D_6__uncultured bacterium

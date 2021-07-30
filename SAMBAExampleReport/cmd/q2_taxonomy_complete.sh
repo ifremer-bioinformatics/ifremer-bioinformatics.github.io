@@ -1,4 +1,4 @@
-qiime feature-classifier classify-sklearn --p-n-jobs 14 --p-confidence 0.7 --i-classifier /home1/datawork/cnoel/test_samba/samba/tax.databases.test/shortreads/DATABASE_silva_v132_99_16S_V4_515F-806R.qza --i-reads dbotu3_seqs.qza --o-classification taxonomy.qza
+qiime feature-classifier classify-sklearn --p-n-jobs 6 --p-confidence 0.7 --i-classifier /home/ref-bioinfo/ifremer/sebimer/tool-specific-banks/qiime2/2019.10/silva/v138/target_region/V3-V4_PCR1F460-PCR1R460/silva_v138_16S_99_V3-V4_PCR1F460-PCR1R460.qza --i-reads dbotu3_seqs.qza --o-classification taxonomy.qza
 qiime metadata tabulate --m-input-file taxonomy.qza --o-visualization taxonomy.qzv
 qiime tools export --input-path taxonomy.qzv --output-path taxo_output
 mv taxo_output/metadata.tsv ASV_taxonomy.tsv

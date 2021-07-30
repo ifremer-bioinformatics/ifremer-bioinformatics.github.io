@@ -62,7 +62,7 @@
     <div class="row">
       <div class="col-lg-12" id="sampling-depth-slider">
         <label> Sampling Depth &nbsp; </label> <br>
-        <input id="range-slider" type="range" min="0" max="61166.447600000014" value="0" class="slider" oninput="sliderHelperFunction(this.value);"> <br>
+        <input id="range-slider" type="range" min="0" max="4411366.412300001" value="0" class="slider" oninput="sliderHelperFunction(this.value);"> <br>
         <input id="text-box" class="form-control" type="number" value="0" min="0" oninput="textBoxHelperFunction(this.value);"/>
         <br>
         (zero implies no even sampling)
@@ -91,12 +91,12 @@
 </div>
 
 <script id="table-data" type="application/json">
-{"BAQ4697.2":61166.4476,"YUN3856.3":52855.7891,"BAQ4697.1":46927.7676,"YUN3856.1":45396.6112,"BAQ4166.3":44622.196,"YUN3428.2":42637.5547,"BAQ4166.1":38693.2019,"YUN3428.1":38392.6023,"YUN3856.2":35290.1689,"BAQ4166.2":34363.156,"BAQ4697.3":31250.3335,"YUN3428.3":14981.4369}
+{"FO359":4411366.4123000009,"FO454":3851493.732400001,"FO451":3776327.7038999982,"FO267":3277184.2581000002,"FO455":3112467.0771999974,"FO300":2925010.5921000019,"FO448":2920982.2693000007,"FO433":2660580.4688999983,"FO445":2612247.3131999997,"FO269":2583982.7571000005,"FO266":2534238.4256000007,"FO301":2496218.6123999991,"FO446":2412507.611200002,"FO444":2379656.9185999995,"FO442":2349116.6218000003,"FO453":2272362.7688999986,"FO270":2004465.4790999994,"FO360":1766476.2832999995,"FO182":1241721.8809999996,"FO443":1054047.6293000004}
 </script>
 
 <script type="text/javascript">
-  var totalFrequencies = 486577;
-  var sampleCount = 12;
+  var totalFrequencies = 52642454;
+  var sampleCount = 20;
   var defaultDescription = "Retained " + (totalFrequencies.toLocaleString('en'))
                                        + " (100.00%) features in "
                                        + sampleCount + " (100.00%) samples at the specifed sampling depth.";
@@ -190,9 +190,9 @@
     }
 
     // make sure the value in the textbox cannot exceed the max count
-    if (val > 61166.447600000014){
+    if (val > 4411366.412300001){
       var num = document.getElementById("text-box");
-      num.value = 61166.447600000014;
+      num.value = 4411366.412300001;
     }
     updateSliderVal(val);
   }

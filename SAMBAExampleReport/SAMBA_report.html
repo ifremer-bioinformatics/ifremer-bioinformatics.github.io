@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- nf-core CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Ifremer CSS -->
     <link rel="stylesheet" href="ifremer.css">
@@ -52,10 +52,10 @@
             <i class="fas fa-home fa-2x"></i><a href="#home" style="font-weight: bold; font-size: 2.0rem"> Home</a>
         </div>
         <div style="text-align: left; padding: 10px">
-            Project name : training_shortreads
+            Project name : dataset_publi_samba
         </div>
         <div style="text-align: left; padding: 10px">
-            Analysis date : 29/11/2020
+            Analysis date : 29/07/2021
         </div>
         <ul class="list-unstyled components">
             <li><a href="#description">Description</a></li>
@@ -75,7 +75,6 @@
                         
                         <li><a href="#taxo-assign">Taxonomic assignation</a></li>
                         
-                            <li><a href="#microdecon">Samples decontamination</a></li>
                         
                         
                             <li><a href="#picrsut">Functional predictions</a></li>
@@ -102,17 +101,14 @@
             </li>
             <li><a href="#about">About</a></li>
             <hr>
-            <div style="text-align: center; font-size: 1.0rem; color: #f0f0f0; margin-left: 8px; margin-right: 8px">nf-core/samba by SeBiMER</div>
+            <div style="text-align: center; font-size: 1.0rem; color: #f0f0f0; margin-left: 8px; margin-right: 8px">samba by SeBiMER</div>
             <br>
             <div style="text-align: center; font-size: 1.0rem; color: #f0f0f0"><i class="fas fa-envelope"></i><a href="mailto: samba-sebimer@ifremer.fr"> Contact</a></div>
         </ul>
         </nav>
         <!-- Page Content  -->
     <div id="content">
-        <a class="link" target="_blank" href="https://gitlab.ifremer.fr/bioinfo/SAMBA-nextflow" id="home" style="margin-left: -25px">
-            <img src="nfcore-samba_logo.png" style="width:600px">
-        </a>
-        <p class="subtitle">Standardized and Automated MetaBarcoding Analyses workflow</p>
+        <p class="subtitle">SAMBA: Standardized and Automated MetaBarcoding Analyses workflow</p>
         <hr class="title">
         <br>
         <h1 id="description">Description of the workflow</h1>
@@ -146,7 +142,7 @@
             </tr>
             <tr>
                 <td><a class="link" target="_blank" href="https://github.com/ifremer-bioinformatics/samba">SAMBA</a></td>
-                <td style="text-align: center">2.0.0</td>
+                <td style="text-align: center">v3.0.1</td>
             </tr>
             <tr>
                 <th colspan="2"><i>Required</i></th>
@@ -176,7 +172,7 @@
             </tr>
             <tr>
                 <td><a class="link" target="_blank" href="https://github.com/donaldtmcknight/microDecon">microDecon</a></td>
-                <td style="text-align: center">1.0.2</td>
+                <td style="text-align: center"></td>
             </tr>
             <tr>
                 <td><a class="link" target="_blank" href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a></td>
@@ -226,7 +222,7 @@
         <br>
         <div class="results">Results</div>
         <hr class="results">
-        <ul style="margin: 0 ; padding: 1 ;"><li>All data integrity verification are summarized in <a class="link" href="./data_integrity.csv">this csv file</a></li></ul>
+        <ul style="margin: 0 ; padding: 1 ;"><li>All data integrity verification are summarized in <a class="link" href="./data_integrity.txt">this csv file</a></li></ul>
         <br>
         
         
@@ -263,9 +259,9 @@
         <ul style="margin: 0 ; padding: 1 ;">
             
             <li class="cmdline">Mode: <span class="highlight">Paired-end</span></li>
-            <li class="cmdline">Forward primer sequence: <span class="highlight">GTGCCAGCMGCCGCGGTAA</span></li>
-            <li class="cmdline">Reverse primer sequence: <span class="highlight">GACTACHVHHHTWTCTAAT</span></li>
-            <li class="cmdline">Overlap: <span class="highlight">18</span></li>
+            <li class="cmdline">Forward primer sequence: <span class="highlight">ACGGRAGGCAGCAG</span></li>
+            <li class="cmdline">Reverse primer sequence: <span class="highlight">TACCAGGGTATCTAATCCT</span></li>
+            <li class="cmdline">Overlap: <span class="highlight">13</span></li>
             
             <li class="cmdline">Error rate: <span class="highlight">0.1</span></li>
         </ul>
@@ -329,7 +325,7 @@
             <li>Details about the samples can be found by going to <a class="link" target="_blank" href="./dada2_output/sample-frequency-detail.html">this interactive html page</a></li>
             <li>Finally, you can retrieved the reference sequences of your ASVs in <a class="link" target="_blank" href="./dada2_output/sequences.fasta">this fasta</a></li>
             <br>
-            <font color="red"><b>A total of 100 ASVs was obtained at this step</b></font>
+            <font color="red"><b>A total of 2136 ASVs was obtained at this step</b></font>
         </ul>
         <br>
         <!--  -->
@@ -363,7 +359,7 @@
             <li>Details about the samples can be found by going to <a class="link" target="_blank" href="./dbotu3_output/sample-frequency-detail.html">this interactive html page</a></li>
             <li>Finally, you can retrieved the reference sequences of your ASVs in <a class="link" target="_blank" href="./dbotu3_output/sequences.fasta">this fasta</a></li>
             <br>
-            <font color="red"><b>A total of 98 ASVs remain after this step. dbOTU3 allowed to cluster 2 ASVs with others ASVs (i.e. about 2.0% clustering). </b></font>
+            <font color="red"><b>A total of 1493 ASVs remain after this step. dbOTU3 allowed to cluster 643 ASVs with others ASVs (i.e. about 30.1% clustering). </b></font>
         </ul>
         <br>
         
@@ -382,7 +378,7 @@
         <i class="fas fa-terminal" style="margin-left: 20px; color: #3e3e3e"></i><a style="color: #3e3e3e; font-weight: bold"> User-defined QIIME 2 parameters</a>
         <ul style="margin: 0 ; padding: 1 ;">
             <li class="cmdline">Minimal confidence allowed: <span class="highlight">0.7</span></li>
-            <li class="cmdline">Taxonomic database used: <span class="highlight">DATABASE_silva_v132_99_16S_V4_515F-806R.qza</span></li>
+            <li class="cmdline">Taxonomic database used: <span class="highlight">silva_v138_16S_99_V3-V4_PCR1F460-PCR1R460.qza</span></li>
         </ul>
         <br>
         <div class="results">Results</div>
@@ -397,36 +393,12 @@
         
         <br>
         <!--  -->
-        <!-- Samples decontamination (microDecon) [optional] -->
+        <!-- Taxonomy filtering [optional] -->
         <!--  -->
         
-        <h3 id="microdecon">Samples decontamination (microDecon) [optional]</h3>
-        <br>
-        <div style="text-align: justify">
-            If you have sequenced control samples, this step allows you to decontaminate your samples from the sequences identified in these controls. This step is carried out using microDecon and a homemade R script.
-        </div>
-        <br>
-        <i class="fas fa-terminal" style="margin-left: 20px; color: #3e3e3e"></i><a style="color: #3e3e3e; font-weight: bold"> User-defined microDecon parameters</a>
-        <ul style="margin: 0 ; padding: 1 ;">
-            <li class="cmdline">Control list: <span class="highlight">control</span></li>
-            <li class="cmdline">Number of blanks: <span class="highlight">1</span></li>
-            <li class="cmdline">Number of  samples: <span class="highlight">12</span></li>
-        </ul>
-        <br>
-        <div class="results">Results</div>
-        <hr class="results">
-        <i class="fas fa-folder" style="margin-left: 20px; color: #007bff"></i><a class="link" target="_blank" href="./microDecon" style="font-size: 1.4rem"> Output folder</a>
-        <br>
-        <br>
-        <ul style="margin: 0 ; padding: 1 ;text-align: justify">
-            <li>New ASV table: <a class="link" target="_blank" href="./microDecon/decontaminated_ASV_table.tsv">decontaminated table</a></li>
-            <li>Representative sequence: <a class="link" target="_blank" href="./microDecon/decontaminated_ASV.fasta">decontaminated ASV sequence</a></li>
-            <li>All ASVs listed <a class="link" target="_blank" href="./microDecon/ASV_removed.txt">here</a> were removed because they were in the majority in the control samples         </li>
-            <li>For all ASVs listed <a class="link" target="_blank" href="./microDecon/abundance_removed.txt">here</a>, a proportion of sequences were removed in each sample. Note that this file also contains the ASVs unique to the controls which have therefore been removed.</li>
-            <br>
-            <font color="red"><b>A total of 96 ASVs remain after this step. MicroDecon removed 2 ASVs (2 ASVs were unique to controls).</b></font>
-        </ul>
-        <br>
+        <!--  -->
+        <!-- Samples decontamination (microDecon) [optional] -->
+        <!--  -->
         
         <!--  -->
         <!-- Functional predictions (PICRUSt2) [optional] -->
@@ -438,7 +410,7 @@
             This optional step allows you to predic the functional potential of the communities using PICRUSt2
         </div>
         <br>
-        <i class="fas fa-terminal" style="margin-left: 20px; color: #3e3e3e"></i><a style="color: #3e3e3e; font-weight: bold"> User-defined microDecon parameters</a>
+        <i class="fas fa-terminal" style="margin-left: 20px; color: #3e3e3e"></i><a style="color: #3e3e3e; font-weight: bold"> User-defined PICRUSt2 parameters</a>
         <ul style="margin: 0 ; padding: 1 ;">
             <li class="cmdline">HSP method: <span class="highlight">mp</span></li>
             <li class="cmdline">Max nsti: <span class="highlight">2</span></li>
@@ -455,13 +427,13 @@
             <div class="row">
                 
                 <div class="column" style="text-align: center;">
-                    <span class="highlight">site_name</span>
-                    <iframe src="picrust2_output/EC_functional_predictions_NMDS_site_name_interactive.html" style="width:100% ; height:100%"></iframe>
+                    <span class="highlight">source</span>
+                    <iframe src="picrust2_output/EC_functional_predictions_NMDS_source_interactive.html" style="width:100% ; height:100%"></iframe>
                 </div>
                 
                 <div class="column" style="text-align: center;">
-                    <span class="highlight">transect_name</span>
-                    <iframe src="picrust2_output/EC_functional_predictions_NMDS_transect_name_interactive.html" style="width:100% ; height:100%"></iframe>
+                    <span class="highlight">sample_species</span>
+                    <iframe src="picrust2_output/EC_functional_predictions_NMDS_sample_species_interactive.html" style="width:100% ; height:100%"></iframe>
                 </div>
                 
             </div>
@@ -470,13 +442,13 @@
             <div class="row">
                 
                 <div class="column" style="text-align: center;">
-                    <span class="highlight">site_name</span>
-                    <iframe src="picrust2_output/KO_functional_predictions_NMDS_site_name_interactive.html" style="width:100% ; height:100%"></iframe>
+                    <span class="highlight">source</span>
+                    <iframe src="picrust2_output/KO_functional_predictions_NMDS_source_interactive.html" style="width:100% ; height:100%"></iframe>
                 </div>
                 
                 <div class="column" style="text-align: center;">
-                    <span class="highlight">transect_name</span>
-                    <iframe src="picrust2_output/KO_functional_predictions_NMDS_transect_name_interactive.html" style="width:100% ; height:100%"></iframe>
+                    <span class="highlight">sample_species</span>
+                    <iframe src="picrust2_output/KO_functional_predictions_NMDS_sample_species_interactive.html" style="width:100% ; height:100%"></iframe>
                 </div>
                 
             </div>
@@ -485,13 +457,13 @@
             <div class="row">
                 
                 <div class="column" style="text-align: center;">
-                    <span class="highlight">site_name</span>
-                    <iframe src="picrust2_output/MetaCyc_functional_predictions_NMDS_site_name_interactive.html" style="width:100% ; height:100%"></iframe>
+                    <span class="highlight">source</span>
+                    <iframe src="picrust2_output/MetaCyc_functional_predictions_NMDS_source_interactive.html" style="width:100% ; height:100%"></iframe>
                 </div>
                 
                 <div class="column" style="text-align: center;">
-                    <span class="highlight">transect_name</span>
-                    <iframe src="picrust2_output/MetaCyc_functional_predictions_NMDS_transect_name_interactive.html" style="width:100% ; height:100%"></iframe>
+                    <span class="highlight">sample_species</span>
+                    <iframe src="picrust2_output/MetaCyc_functional_predictions_NMDS_sample_species_interactive.html" style="width:100% ; height:100%"></iframe>
                 </div>
                 
             </div>
@@ -519,21 +491,21 @@
         </div>
         <ul>
             
-            <li><span class="highlight">site_name</span></li>
+            <li><span class="highlight">sample_species</span></li>
             
-            <li><span class="highlight">transect_name</span></li>
+            <li><span class="highlight">source</span></li>
             
         </ul>
         <br>
         
         <div style="text-align: justify">
-            <b>ANCOM analysis based on the <span class="highlight">site_name</span> variable :</b>
+            <b>ANCOM analysis based on the <span class="highlight">sample_species</span> variable :</b>
         </div>
         <ul>
             - The full analysis is available in the following directories:
-            <a class="link" target="_blank" href="./ancom_output/export_ancom_site_name">ASV level</a> ;
-            <a class="link" target="_blank" href="./ancom_output/export_ancom_site_name_family">family level</a> ;
-            <a class="link" target="_blank" href="./ancom_output/export_ancom_site_name_genus">genus level</a>
+            <a class="link" target="_blank" href="./ancom_output/export_ancom_sample_species">ASV level</a> ;
+            <a class="link" target="_blank" href="./ancom_output/export_ancom_sample_species_family">family level</a> ;
+            <a class="link" target="_blank" href="./ancom_output/export_ancom_sample_species_genus">genus level</a>
             <br>
             - The reports generated by QIIME 2 are available by following the following links:
             <a class="link" target="_blank" href="./ancom_output/export_ancom_/index.html">ASV level</a> ;
@@ -541,42 +513,42 @@
             <a class="link" target="_blank" href="./ancom_output/export_ancom__genus/index.html">genus level</a>
             <br>
             
-            - Number of significantly differentially abundant ASVs: <span class="highlight">1</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_site_name/ancom.tsv">[Full list]</a>
+            - Number of significantly differentially abundant ASVs: <span class="highlight">5</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_sample_species/ancom.tsv">[Full list]</a>
             
             <br>
-                         
-            - No significantly differentially abundant family
+            
+            - Number of significantly differentially abundant family: <span class="highlight">2</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_sample_species_family/ancom.tsv">[Full list]</a>
             
             <br>
-                         
-            - No significantly differentially abundant genus
+            
+            - Number of significantly differentially abundant genus: <span class="highlight"> 3</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_sample_species_genus/ancom.tsv">[Full list]</a>
             
         </ul>
         
         <div style="text-align: justify">
-            <b>ANCOM analysis based on the <span class="highlight">transect_name</span> variable :</b>
+            <b>ANCOM analysis based on the <span class="highlight">source</span> variable :</b>
         </div>
         <ul>
             - The full analysis is available in the following directories:
-            <a class="link" target="_blank" href="./ancom_output/export_ancom_transect_name">ASV level</a> ;
-            <a class="link" target="_blank" href="./ancom_output/export_ancom_transect_name_family">family level</a> ;
-            <a class="link" target="_blank" href="./ancom_output/export_ancom_transect_name_genus">genus level</a>
+            <a class="link" target="_blank" href="./ancom_output/export_ancom_source">ASV level</a> ;
+            <a class="link" target="_blank" href="./ancom_output/export_ancom_source_family">family level</a> ;
+            <a class="link" target="_blank" href="./ancom_output/export_ancom_source_genus">genus level</a>
             <br>
             - The reports generated by QIIME 2 are available by following the following links:
             <a class="link" target="_blank" href="./ancom_output/export_ancom_/index.html">ASV level</a> ;
             <a class="link" target="_blank" href="./ancom_output/export_ancom__family/index.html">family level</a> ;
             <a class="link" target="_blank" href="./ancom_output/export_ancom__genus/index.html">genus level</a>
             <br>
-                         
-            - No significantly differentially abundant ASVs
+            
+            - Number of significantly differentially abundant ASVs: <span class="highlight">7</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_source/ancom.tsv">[Full list]</a>
             
             <br>
-                         
-            - No significantly differentially abundant family
+            
+            - Number of significantly differentially abundant family: <span class="highlight">4</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_source_family/ancom.tsv">[Full list]</a>
             
             <br>
-                         
-            - No significantly differentially abundant genus
+            
+            - Number of significantly differentially abundant genus: <span class="highlight"> 4</span> <a class="link" target="_blank" href="./ancom_output/export_ancom_source_genus/ancom.tsv">[Full list]</a>
             
         </ul>
         
@@ -613,9 +585,9 @@
         <li>Tested variables :</li>
         <ul>
             
-            <li><span class="highlight">site_name</span></li>
+            <li><span class="highlight">sample_species</span></li>
             
-            <li><span class="highlight">transect_name</span></li>
+            <li><span class="highlight">source</span></li>
             
         </ul>
         <li>Diversity index used : "Observed richness / Chao1 / Shannon / InvSimpson / Pielou"</li>
@@ -626,14 +598,14 @@
         <h4>Diversity indices</h4>
         <br>
         
-        <p class="highlight" >site_name</p>
+        <p class="highlight" >sample_species</p>
         <p align="center">
-            <iframe src="R/FIGURES/alpha_diversity/diversity_index/alpha_div_plots_site_name_interactive.html" style="width:80% ; height: 900px"</iframe>
+            <iframe src="R/FIGURES/alpha_diversity/diversity_index/alpha_div_plots_sample_species_interactive.html" style="width:80% ; height: 900px"></iframe>
         </p>
         
-        <p class="highlight" >transect_name</p>
+        <p class="highlight" >source</p>
         <p align="center">
-            <iframe src="R/FIGURES/alpha_diversity/diversity_index/alpha_div_plots_transect_name_interactive.html" style="width:80% ; height: 900px"</iframe>
+            <iframe src="R/FIGURES/alpha_diversity/diversity_index/alpha_div_plots_source_interactive.html" style="width:80% ; height: 900px"></iframe>
         </p>
         
         <h4>Rarefaction curve</h4>
@@ -646,28 +618,28 @@
         
             
             <ul>
-                <li>Taxonomic barplots group by <span class="highlight">site_name :</span></li><br>
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/site_name/barplot_phylum_site_name_interactive.html">Barplot at the phylum level</a> ;
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/site_name/barplot_class_site_name_interactive.html">Barplot at the class level</a> ;
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/site_name/barplot_order_site_name_interactive.html">Barplot at the order level</a> ;
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/site_name/barplot_family_site_name_interactive.html">Barplot at the family level</a>
+                <li>Taxonomic barplots group by <span class="highlight">sample_species :</span></li><br>
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/sample_species/barplot_phylum_sample_species_interactive.html">Barplot at the phylum level</a> ;
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/sample_species/barplot_class_sample_species_interactive.html">Barplot at the class level</a> ;
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/sample_species/barplot_order_sample_species_interactive.html">Barplot at the order level</a> ;
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/sample_species/barplot_family_sample_species_interactive.html">Barplot at the family level</a>
                 <br>
             </ul>
             <p align="center">
-                <iframe src="R/FIGURES/alpha_diversity/diversity_barplots/site_name/barplot_genus_site_name_interactive.html" width="100%" height="800"></iframe>
+                <iframe src="R/FIGURES/alpha_diversity/diversity_barplots/sample_species/barplot_genus_sample_species_interactive.html" width="100%" height="800"></iframe>
                 <br>
             </p>
             
             <ul>
-                <li>Taxonomic barplots group by <span class="highlight">transect_name :</span></li><br>
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/transect_name/barplot_phylum_transect_name_interactive.html">Barplot at the phylum level</a> ;
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/transect_name/barplot_class_transect_name_interactive.html">Barplot at the class level</a> ;
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/transect_name/barplot_order_transect_name_interactive.html">Barplot at the order level</a> ;
-                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/transect_name/barplot_family_transect_name_interactive.html">Barplot at the family level</a>
+                <li>Taxonomic barplots group by <span class="highlight">source :</span></li><br>
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/source/barplot_phylum_source_interactive.html">Barplot at the phylum level</a> ;
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/source/barplot_class_source_interactive.html">Barplot at the class level</a> ;
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/source/barplot_order_source_interactive.html">Barplot at the order level</a> ;
+                <a class="link" target="_blank" href="R/FIGURES/alpha_diversity/diversity_barplots/source/barplot_family_source_interactive.html">Barplot at the family level</a>
                 <br>
             </ul>
             <p align="center">
-                <iframe src="R/FIGURES/alpha_diversity/diversity_barplots/transect_name/barplot_genus_transect_name_interactive.html" width="100%" height="800"></iframe>
+                <iframe src="R/FIGURES/alpha_diversity/diversity_barplots/source/barplot_genus_source_interactive.html" width="100%" height="800"></iframe>
                 <br>
             </p>
             
@@ -694,9 +666,9 @@
         <li>Tested variables :</li>
         <ul>
             
-            <li><span class="highlight">site_name</span></li>
+            <li><span class="highlight">source</span></li>
             
-            <li><span class="highlight">transect_name</span></li>
+            <li><span class="highlight">sample_species</span></li>
             
         </ul>
         
@@ -708,15 +680,15 @@
         <h3 id="beta-diversity">Beta diversity by variable [optional]</h3>
         <br>
         
-        <h4>Ordination and hierarchical clustering for variable: <span class="highlight">site_name</span></h4>
+        <h4>Ordination and hierarchical clustering for variable: <span class="highlight">source</span></h4>
         <br>
             
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_namerarefied" aria-expanded="false" aria-controls="collapseExample">Show rarefied method</button></p>
-        <div class="collapse" id="site_namerarefied">
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourcerarefied" aria-expanded="false" aria-controls="collapseExample">Show rarefied method</button></p>
+        <div class="collapse" id="sourcerarefied">
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_namerarefiedNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
-            <div class="collapse" id="site_namerarefiedNMDS">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourcerarefiedNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
+            <div class="collapse" id="sourcerarefiedNMDS">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">NMDS</div>
                 <hr class="results">
                 <br>
@@ -724,25 +696,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_site_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_source_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_site_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_source_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_site_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_source_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_site_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_source_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -752,8 +724,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_namerarefiedPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
-            <div class="collapse" id="site_namerarefiedPCoA">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourcerarefiedPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
+            <div class="collapse" id="sourcerarefiedPCoA">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">PCoA</div>
                 <hr class="results">
                 <br>
@@ -761,25 +733,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_site_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_source_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_site_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_source_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_site_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_source_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_site_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_source_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -789,8 +761,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_namerarefiedhclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
-            <div class="collapse" id="site_namerarefiedhclustering">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourcerarefiedhclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
+            <div class="collapse" id="sourcerarefiedhclustering">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">hclustering</div>
                 <hr class="results">
                 <br>
@@ -798,25 +770,25 @@
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_site_name_bray.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_source_bray.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_site_name_wunifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_source_wunifrac.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_site_name_jaccard.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_source_jaccard.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_site_name_unifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_source_unifrac.png" style="width:100%"></img>
                     
                     </div>
                     
@@ -827,12 +799,12 @@
                 
         </div>
             
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameDESeq2" aria-expanded="false" aria-controls="collapseExample">Show DESeq2 method</button></p>
-        <div class="collapse" id="site_nameDESeq2">
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceDESeq2" aria-expanded="false" aria-controls="collapseExample">Show DESeq2 method</button></p>
+        <div class="collapse" id="sourceDESeq2">
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameDESeq2NMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
-            <div class="collapse" id="site_nameDESeq2NMDS">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceDESeq2NMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
+            <div class="collapse" id="sourceDESeq2NMDS">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">NMDS</div>
                 <hr class="results">
                 <br>
@@ -840,25 +812,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_site_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_source_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_site_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_source_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_site_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_source_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_site_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_source_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -868,8 +840,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameDESeq2PCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
-            <div class="collapse" id="site_nameDESeq2PCoA">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceDESeq2PCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
+            <div class="collapse" id="sourceDESeq2PCoA">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">PCoA</div>
                 <hr class="results">
                 <br>
@@ -877,25 +849,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_site_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_source_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_site_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_source_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_site_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_source_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_site_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_source_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -905,8 +877,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameDESeq2hclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
-            <div class="collapse" id="site_nameDESeq2hclustering">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceDESeq2hclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
+            <div class="collapse" id="sourceDESeq2hclustering">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">hclustering</div>
                 <hr class="results">
                 <br>
@@ -914,25 +886,25 @@
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_site_name_bray.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_source_bray.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_site_name_wunifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_source_wunifrac.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_site_name_jaccard.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_source_jaccard.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_site_name_unifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_source_unifrac.png" style="width:100%"></img>
                     
                     </div>
                     
@@ -943,12 +915,12 @@
                 
         </div>
             
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameCSS" aria-expanded="false" aria-controls="collapseExample">Show CSS method</button></p>
-        <div class="collapse" id="site_nameCSS">
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceCSS" aria-expanded="false" aria-controls="collapseExample">Show CSS method</button></p>
+        <div class="collapse" id="sourceCSS">
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameCSSNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
-            <div class="collapse" id="site_nameCSSNMDS">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceCSSNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
+            <div class="collapse" id="sourceCSSNMDS">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">NMDS</div>
                 <hr class="results">
                 <br>
@@ -956,25 +928,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_site_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_source_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_site_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_source_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_site_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_source_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_site_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_source_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -984,8 +956,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameCSSPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
-            <div class="collapse" id="site_nameCSSPCoA">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceCSSPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
+            <div class="collapse" id="sourceCSSPCoA">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">PCoA</div>
                 <hr class="results">
                 <br>
@@ -993,25 +965,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_site_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_source_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_site_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_source_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_site_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_source_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_site_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_source_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1021,8 +993,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#site_nameCSShclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
-            <div class="collapse" id="site_nameCSShclustering">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sourceCSShclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
+            <div class="collapse" id="sourceCSShclustering">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">hclustering</div>
                 <hr class="results">
                 <br>
@@ -1030,25 +1002,25 @@
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_site_name_bray.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_source_bray.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_site_name_wunifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_source_wunifrac.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_site_name_jaccard.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_source_jaccard.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_site_name_unifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_source_unifrac.png" style="width:100%"></img>
                     
                     </div>
                     
@@ -1060,15 +1032,15 @@
         </div>
             
         
-        <h4>Ordination and hierarchical clustering for variable: <span class="highlight">transect_name</span></h4>
+        <h4>Ordination and hierarchical clustering for variable: <span class="highlight">sample_species</span></h4>
         <br>
             
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_namerarefied" aria-expanded="false" aria-controls="collapseExample">Show rarefied method</button></p>
-        <div class="collapse" id="transect_namerarefied">
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesrarefied" aria-expanded="false" aria-controls="collapseExample">Show rarefied method</button></p>
+        <div class="collapse" id="sample_speciesrarefied">
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_namerarefiedNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
-            <div class="collapse" id="transect_namerarefiedNMDS">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesrarefiedNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
+            <div class="collapse" id="sample_speciesrarefiedNMDS">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">NMDS</div>
                 <hr class="results">
                 <br>
@@ -1076,25 +1048,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_transect_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_sample_species_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_transect_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_sample_species_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_transect_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_sample_species_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_transect_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/NMDS/NMDS_rarefied_sample_species_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1104,8 +1076,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_namerarefiedPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
-            <div class="collapse" id="transect_namerarefiedPCoA">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesrarefiedPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
+            <div class="collapse" id="sample_speciesrarefiedPCoA">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">PCoA</div>
                 <hr class="results">
                 <br>
@@ -1113,25 +1085,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_transect_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_sample_species_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_transect_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_sample_species_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_transect_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_sample_species_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_transect_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_rarefied/PCoA/PCoA_rarefied_sample_species_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1141,8 +1113,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_namerarefiedhclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
-            <div class="collapse" id="transect_namerarefiedhclustering">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesrarefiedhclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
+            <div class="collapse" id="sample_speciesrarefiedhclustering">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">hclustering</div>
                 <hr class="results">
                 <br>
@@ -1150,25 +1122,25 @@
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_transect_name_bray.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_sample_species_bray.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_transect_name_wunifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_sample_species_wunifrac.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_transect_name_jaccard.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_sample_species_jaccard.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_transect_name_unifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_rarefied/hclustering/hclustering_rarefied_sample_species_unifrac.png" style="width:100%"></img>
                     
                     </div>
                     
@@ -1179,12 +1151,12 @@
                 
         </div>
             
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameDESeq2" aria-expanded="false" aria-controls="collapseExample">Show DESeq2 method</button></p>
-        <div class="collapse" id="transect_nameDESeq2">
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesDESeq2" aria-expanded="false" aria-controls="collapseExample">Show DESeq2 method</button></p>
+        <div class="collapse" id="sample_speciesDESeq2">
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameDESeq2NMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
-            <div class="collapse" id="transect_nameDESeq2NMDS">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesDESeq2NMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
+            <div class="collapse" id="sample_speciesDESeq2NMDS">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">NMDS</div>
                 <hr class="results">
                 <br>
@@ -1192,25 +1164,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_transect_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_sample_species_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_transect_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_sample_species_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_transect_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_sample_species_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_transect_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/NMDS/NMDS_DESeq2_sample_species_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1220,8 +1192,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameDESeq2PCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
-            <div class="collapse" id="transect_nameDESeq2PCoA">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesDESeq2PCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
+            <div class="collapse" id="sample_speciesDESeq2PCoA">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">PCoA</div>
                 <hr class="results">
                 <br>
@@ -1229,25 +1201,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_transect_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_sample_species_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_transect_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_sample_species_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_transect_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_sample_species_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_transect_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_DESeq2/PCoA/PCoA_DESeq2_sample_species_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1257,8 +1229,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameDESeq2hclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
-            <div class="collapse" id="transect_nameDESeq2hclustering">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesDESeq2hclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
+            <div class="collapse" id="sample_speciesDESeq2hclustering">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">hclustering</div>
                 <hr class="results">
                 <br>
@@ -1266,25 +1238,25 @@
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_transect_name_bray.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_sample_species_bray.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_transect_name_wunifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_sample_species_wunifrac.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_transect_name_jaccard.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_sample_species_jaccard.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_transect_name_unifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_DESeq2/hclustering/hclustering_DESeq2_sample_species_unifrac.png" style="width:100%"></img>
                     
                     </div>
                     
@@ -1295,12 +1267,12 @@
                 
         </div>
             
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameCSS" aria-expanded="false" aria-controls="collapseExample">Show CSS method</button></p>
-        <div class="collapse" id="transect_nameCSS">
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesCSS" aria-expanded="false" aria-controls="collapseExample">Show CSS method</button></p>
+        <div class="collapse" id="sample_speciesCSS">
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameCSSNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
-            <div class="collapse" id="transect_nameCSSNMDS">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesCSSNMDS" aria-expanded="false" aria-controls="collapseExample">Show NMDS plots</button></p>
+            <div class="collapse" id="sample_speciesCSSNMDS">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">NMDS</div>
                 <hr class="results">
                 <br>
@@ -1308,25 +1280,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_transect_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_sample_species_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_transect_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_sample_species_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_transect_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_sample_species_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_transect_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/NMDS/NMDS_CSS_sample_species_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1336,8 +1308,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameCSSPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
-            <div class="collapse" id="transect_nameCSSPCoA">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesCSSPCoA" aria-expanded="false" aria-controls="collapseExample">Show PCoA plots</button></p>
+            <div class="collapse" id="sample_speciesCSSPCoA">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">PCoA</div>
                 <hr class="results">
                 <br>
@@ -1345,25 +1317,25 @@
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_transect_name_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_sample_species_bray_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_transect_name_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_sample_species_wunifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_transect_name_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_sample_species_jaccard_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_transect_name_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
+                    <iframe src="R/FIGURES/beta_diversity_CSS/PCoA/PCoA_CSS_sample_species_unifrac_interactive.html" style="width:100% ; height: 100%"></iframe>
                     
                     </div>
                     
@@ -1373,8 +1345,8 @@
             <br>
                 
             <br>
-            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#transect_nameCSShclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
-            <div class="collapse" id="transect_nameCSShclustering">
+            <p style="margin-left: 20px"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sample_speciesCSShclustering" aria-expanded="false" aria-controls="collapseExample">Show hclustering plots</button></p>
+            <div class="collapse" id="sample_speciesCSShclustering">
                 <div style="text-align: center; color: #007bff; font-size: 1.0rem">hclustering</div>
                 <hr class="results">
                 <br>
@@ -1382,25 +1354,25 @@
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_transect_name_bray.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_sample_species_bray.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_transect_name_wunifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_sample_species_wunifrac.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_transect_name_jaccard.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_sample_species_jaccard.png" style="width:100%"></img>
                     
                     </div>
                     
                     <div class="column">
                     
-                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_transect_name_unifrac.png" style="width:100%"></img>
+                    <img src="R/FIGURES/beta_diversity_CSS/hclustering/hclustering_CSS_sample_species_unifrac.png" style="width:100%"></img>
                     
                     </div>
                     
@@ -1510,27 +1482,27 @@
         <li>Tested variables :</li>
         <ul>
             
-            <li><span class="highlight">ph</span></li>
+            <li><span class="highlight">sample_species</span></li>
             
-            <li><span class="highlight">transect_name</span></li>
+            <li><span class="highlight">source</span></li>
             
         </ul>
         <br>
         
-        <li>Repartition of ASVs in the samples grouped by <span class="highlight">ph</span>:</li>
+        <li>Repartition of ASVs in the samples grouped by <span class="highlight">sample_species</span>:</li>
         <br>
         <p align="center">
-            <a class="link" target="_blank" href="R/FIGURES/descriptive_comparison/upset_plot_ph.png">
-                <img src="R/FIGURES/descriptive_comparison/upset_plot_ph.png" style="width:75%">
+            <a class="link" target="_blank" href="R/FIGURES/descriptive_comparison/upset_plot_sample_species.png">
+                <img src="R/FIGURES/descriptive_comparison/upset_plot_sample_species.png" style="width:75%">
             </a>
         </p>
         <br>
         
-        <li>Repartition of ASVs in the samples grouped by <span class="highlight">transect_name</span>:</li>
+        <li>Repartition of ASVs in the samples grouped by <span class="highlight">source</span>:</li>
         <br>
         <p align="center">
-            <a class="link" target="_blank" href="R/FIGURES/descriptive_comparison/upset_plot_transect_name.png">
-                <img src="R/FIGURES/descriptive_comparison/upset_plot_transect_name.png" style="width:75%">
+            <a class="link" target="_blank" href="R/FIGURES/descriptive_comparison/upset_plot_source.png">
+                <img src="R/FIGURES/descriptive_comparison/upset_plot_source.png" style="width:75%">
             </a>
         </p>
         <br>
@@ -1550,14 +1522,6 @@
         <br>
         <h5 style="margin-left: 10px">Citations</h5>
         <hr class="results">
-        <div style="text-align: justify">You can cite the nf-core publication as follows:</div>
-        <br>
-        <div style="text-align: justify; margin-left: 80px; margin-right: 80px">
-          Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia,
-          Paolo Di Tommaso & Sven Nahnsen. (2020). <a class="link" target="_blank" href="https://www.nature.com/articles/s41587-020-0439-x">The nf-core
-          framework for community-curated bioinformatics pipelines.</a> <i>Nature biotechnology</i>. <b>38</b>(3), 276-278.
-        </div>
-        <br>
         <div style="text-align: justify">You can cite the NextFlow publication as follows:</div>
         <br>
         <div style="text-align: justify; margin-left: 80px; margin-right: 80px">

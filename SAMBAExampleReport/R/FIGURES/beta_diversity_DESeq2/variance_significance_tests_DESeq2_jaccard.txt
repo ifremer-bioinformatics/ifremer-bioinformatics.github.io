@@ -1,5 +1,5 @@
 ###############################################################
-#Perform Adonis test on multiple variables: elevation + extract_group_no + transect_name + site_name + ph using the jaccard distance matrix
+#Perform Adonis test on multiple variables: source + sample_species using the jaccard distance matrix
 Call:
 adonis(formula = as.formula(f), data = metadata, permutations = 9999) 
 
@@ -8,12 +8,11 @@ Number of permutations: 9999
 
 Terms added sequentially (first to last)
 
-                 Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
-elevation         1    0.7944 0.79442  2.1205 0.15577 0.0002 ***
-extract_group_no  4    1.9322 0.48305  1.2894 0.37888 0.0169 *  
-ph                1    0.5000 0.50000  1.3346 0.09804 0.0015 ** 
-Residuals         5    1.8732 0.37464         0.36731           
-Total            11    5.0998                 1.00000           
+               Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+source          1    1.3627 1.36267  4.0506 0.16425  1e-04 ***
+sample_species  2    1.5510 0.77552  2.3053 0.18696  2e-04 ***
+Residuals      16    5.3826 0.33641         0.64879           
+Total          19    8.2963                 1.00000           
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 

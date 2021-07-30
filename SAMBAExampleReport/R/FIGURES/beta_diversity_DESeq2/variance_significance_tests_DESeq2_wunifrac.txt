@@ -1,5 +1,5 @@
 ###############################################################
-#Perform Adonis test on multiple variables: elevation + extract_group_no + transect_name + site_name + ph using the wunifrac distance matrix
+#Perform Adonis test on multiple variables: source + sample_species using the wunifrac distance matrix
 Call:
 adonis(formula = as.formula(f), data = metadata, permutations = 9999) 
 
@@ -8,12 +8,11 @@ Number of permutations: 9999
 
 Terms added sequentially (first to last)
 
-                 Df SumsOfSqs  MeanSqs F.Model      R2 Pr(>F)  
-elevation         1   0.10417 0.104169  2.1454 0.16969 0.0260 *
-extract_group_no  4   0.21130 0.052825  1.0880 0.34420 0.3673  
-ph                1   0.05564 0.055641  1.1460 0.09064 0.3610  
-Residuals         5   0.24277 0.048554         0.39547         
-Total            11   0.61388                  1.00000         
+               Df SumsOfSqs  MeanSqs F.Model      R2 Pr(>F)    
+source          1  0.019702 0.019702  5.2566 0.19765  1e-04 ***
+sample_species  2  0.020008 0.010004  2.6691 0.20073  6e-04 ***
+Residuals      16  0.059969 0.003748         0.60162           
+Total          19  0.099678                  1.00000           
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
